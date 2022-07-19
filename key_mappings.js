@@ -428,21 +428,21 @@ const mapping = {
       "=92oX\n" +
       "-----END PGP PUBLIC KEY BLOCK-----",
   "https://repo.scala-sbt.org/scalasbt/rpm": null,
-  "https://repository.api.bbci.co.uk/ibl-sysadmin/revisions/head": null,
-  "https://repository.api.bbci.co.uk/ibl-apache-el7/revisions/head": null,
-  "https://repository.api.bbci.co.uk/ibl-logrotate-el7/revisions/head": null,
-  "https://repository.api.bbci.co.uk/ibl-certificate-checker-el7/revisions/head": null,
-  "https://repository.api.bbci.co.uk/ibl-collectibl-el7/revisions/head": null,
+  "https://repository.api.bbci.co.uk/ibl-sysadmin/revisions/head": null, // Same key as iplayer-build-tools ?
+  "https://repository.api.bbci.co.uk/ibl-apache-el7/revisions/head": null, // not signed by Jenkins
+  "https://repository.api.bbci.co.uk/ibl-logrotate-el7/revisions/head": null, //  not signed by Jenkins
+  "https://repository.api.bbci.co.uk/ibl-certificate-checker-el7/revisions/head": null, // Not in Jenkins? Job not migrated?
+  "https://repository.api.bbci.co.uk/ibl-collectibl-el7/revisions/head": null, // Same key as iplayer-build-tools ?
+  "https://repository.api.bbci.co.uk/ibl-audit-el7/revisions/head": null,//  not signed by Jenkins
+  "https://repository.api.bbci.co.uk/ibl-canvas-el7/revisions/head": null,//  not signed by Jenkins
+  "https://repository.api.bbci.co.uk/cloud-varnish/revisions/head": null, //  not signed by Jenkins
   "https://repository.api.bbci.co.uk/connected-tv/revisions/head": null,
   "https://repository.api.bbci.co.uk/tvr-nginx/revisions/head": null,
   "https://repository.api.bbci.co.uk/api-management-el7/revisions/head": null,
   "https://repository.api.bbci.co.uk/siege/revisions/head": null,
   "https://repository.api.bbci.co.uk/wrk2/revisions/head": null,
-  "https://repository.api.bbci.co.uk/ibl-audit-el7/revisions/head": null,
-  "https://repository.api.bbci.co.uk/ffmpeg-static-el7-rpm/revisions/head": null,
-  "https://repository.api.bbci.co.uk/ibl-canvas-el7/revisions/head": null,
   "https://repository.api.bbci.co.uk/cosmos-lib/revisions/head": null,
-  "https://repository.api.bbci.co.uk/cloud-varnish/revisions/head": null,
+  "https://repository.api.bbci.co.uk/ffmpeg-static-el7-rpm/revisions/head": null,
   "https://repository.api.bbci.co.uk/broadcast-aws-xray-daemon/revisions/head": null,
 }
 
