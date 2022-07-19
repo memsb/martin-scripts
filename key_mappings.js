@@ -427,7 +427,56 @@ const mapping = {
       "qPDlGRlOgVTd9xUfHFkzB52c70E=\n" +
       "=92oX\n" +
       "-----END PGP PUBLIC KEY BLOCK-----",
-  "https://repo.scala-sbt.org/scalasbt/rpm": null,
+  "https://repo.scala-sbt.org/scalasbt/rpm": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n" +
+      "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\n" +
+      "Tgs=\n" +
+      "=4/Ap\n" +
+      "-----END PGP PUBLIC KEY BLOCK-----",
   "https://repository.api.bbci.co.uk/ibl-sysadmin/revisions/head": null, // Same key as iplayer-build-tools ?
   "https://repository.api.bbci.co.uk/ibl-apache-el7/revisions/head": null, // not signed by Jenkins
   "https://repository.api.bbci.co.uk/ibl-logrotate-el7/revisions/head": null, //  not signed by Jenkins
