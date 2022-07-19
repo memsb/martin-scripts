@@ -1,0 +1,6500 @@
+{
+  "@2fd/graphdoc": {
+    "^2": [
+      "bbc/ibl-graph-documentation"
+    ]
+  },
+  "@aws-cdk/assert": {
+    "1.128.0": [
+      "bbc/ibl-stacks"
+    ],
+    "^1": [
+      "bbc/ibl-episode-hits-pipeline"
+    ]
+  },
+  "@aws-cdk/aws-chatbot": {
+    "^1": [
+      "bbc/ibl-stacks"
+    ]
+  },
+  "@aws-cdk/aws-iam": {
+    "1.128.0": [
+      "bbc/ibl-stacks"
+    ],
+    "^1": [
+      "bbc/ibl-episode-hits-pipeline"
+    ]
+  },
+  "@aws-cdk/aws-kinesis": {
+    "^1": [
+      "bbc/ibl-episode-hits-pipeline"
+    ]
+  },
+  "@aws-cdk/aws-kinesisfirehose": {
+    "^1": [
+      "bbc/ibl-episode-hits-pipeline"
+    ]
+  },
+  "@aws-cdk/aws-kinesisfirehose-destinations": {
+    "^1": [
+      "bbc/ibl-episode-hits-pipeline"
+    ]
+  },
+  "@aws-cdk/aws-kms": {
+    "1.128.0": [
+      "bbc/ibl-stacks"
+    ]
+  },
+  "@aws-cdk/aws-lambda": {
+    "^1": [
+      "bbc/ibl-episode-hits-pipeline"
+    ]
+  },
+  "@aws-cdk/aws-lambda-event-sources": {
+    "^1": [
+      "bbc/ibl-episode-hits-pipeline"
+    ]
+  },
+  "@aws-cdk/aws-lambda-nodejs": {
+    "^1": [
+      "bbc/ibl-episode-hits-pipeline"
+    ]
+  },
+  "@aws-cdk/aws-logs-destinations": {
+    "^1": [
+      "bbc/ibl-episode-hits-pipeline"
+    ]
+  },
+  "@aws-cdk/aws-s3": {
+    "^1": [
+      "bbc/ibl-episode-hits-pipeline",
+      "bbc/ibl-stacks"
+    ]
+  },
+  "@aws-cdk/aws-sns": {
+    "^1": [
+      "bbc/ibl-stacks"
+    ]
+  },
+  "@aws-cdk/core": {
+    "1.128.0": [
+      "bbc/ibl-stacks"
+    ],
+    "^1": [
+      "bbc/ibl-episode-hits-pipeline"
+    ]
+  },
+  "@aws-sdk/client-cloudwatch-logs": {
+    "^3": [
+      "bbc/ibl-inspector"
+    ]
+  },
+  "@aws-sdk/client-firehose": {
+    "^3": [
+      "bbc/ibl-episode-hits-pipeline"
+    ]
+  },
+  "@aws-sdk/client-lambda": {
+    "^3": [
+      "bbc/ibl-playback-interactions-queue-processor",
+      "bbc/ibl-playback-interactions-transformer"
+    ]
+  },
+  "@aws-sdk/client-s3": {
+    "3.48.0": [
+      "bbc/ibl-scoreboard-fetcher"
+    ],
+    "^3": [
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-icat-client",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-playback-interactions-queue-processor",
+      "bbc/ibl-playback-interactions-transformer"
+    ]
+  },
+  "@aws-sdk/client-sns": {
+    "3.48.0": [
+      "bbc/ibl-scoreboard-fetcher"
+    ]
+  },
+  "@aws-sdk/client-sqs": {
+    "^3": [
+      "bbc/ibl-playback-interactions-queue-processor"
+    ]
+  },
+  "@aws-sdk/client-sts": {
+    "^3": [
+      "bbc/ibl-playback-interactions-queue-processor",
+      "bbc/ibl-playback-interactions-transformer"
+    ]
+  },
+  "@babel/core": {
+    "^7": [
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags"
+    ]
+  },
+  "@babel/polyfill": {
+    "^7": [
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags"
+    ]
+  },
+  "@babel/preset-env": {
+    "^7": [
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags"
+    ]
+  },
+  "@babel/preset-react": {
+    "^7": [
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags"
+    ]
+  },
+  "@bbc/consumer-contracts": {
+    "^4": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-promotions-service"
+    ]
+  },
+  "@bbc/dials-client": {
+    "^1": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-recommendations-client",
+      "bbc/ibl-search",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer"
+    ]
+  },
+  "@bbc/http-transport": {
+    "^2": [
+      "bbc/http-transport-callbacks"
+    ],
+    "^3": [
+      "bbc/flashheart",
+      "bbc/http-transport-cache",
+      "bbc/http-transport-request-collapse",
+      "bbc/http-transport-statsd",
+      "bbc/http-transport-to-error",
+      "bbc/http-transport-xray",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-repo-badges",
+      "bbc/ibl-rest-client"
+    ]
+  },
+  "@bbc/http-transport-cache": {
+    "^3": [
+      "bbc/flashheart",
+      "bbc/ibl-rest-client",
+      "bbc/iplayer-web-ibl-client"
+    ]
+  },
+  "@bbc/http-transport-circuit-breaker": {
+    "^1": [
+      "bbc/flashheart",
+      "bbc/ibl-rest-client"
+    ]
+  },
+  "@bbc/http-transport-rate-limiter": {
+    "^1": [
+      "bbc/flashheart"
+    ]
+  },
+  "@bbc/http-transport-request-collapse": {
+    "^3": [
+      "bbc/flashheart",
+      "bbc/ibl-rest-client"
+    ]
+  },
+  "@bbc/http-transport-statsd": {
+    "^2": [
+      "bbc/flashheart",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-rest-client",
+      "bbc/ibl-tag-extractor-v2"
+    ]
+  },
+  "@bbc/http-transport-to-error": {
+    "^1": [
+      "bbc/http-transport-callbacks"
+    ],
+    "^2": [
+      "bbc/flashheart",
+      "bbc/http-transport-cache",
+      "bbc/ibl-rest-client"
+    ]
+  },
+  "@bbc/ibl-bundles-client": {
+    "^1": [
+      "bbc/ibl-graph-resolver"
+    ]
+  },
+  "@bbc/ibl-chassis-client": {
+    "^1": [
+      "bbc/ibl-user-activity"
+    ],
+    "^2": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-recommendations-client"
+    ]
+  },
+  "@bbc/ibl-coldstart": {
+    "^1": [
+      "bbc/ibl-episode-ingest"
+    ]
+  },
+  "@bbc/ibl-cosmos-deploy-stack-parameter-resolver": {
+    "^1": [
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-cache",
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-clip-poller",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-databases",
+      "bbc/ibl-documentation",
+      "bbc/ibl-edibl",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episode-notifier",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-forward-proxy",
+      "bbc/ibl-graph-edge",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-group-poller",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-hubot",
+      "bbc/ibl-inspector",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-isite-proxy",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-list-poller",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-nibl",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-promotions-poller",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-search",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-smashibl-admin",
+      "bbc/ibl-smashibl-cluster",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-universal-search",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-variants-api",
+      "bbc/iplayer-tools",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-variants"
+    ]
+  },
+  "@bbc/ibl-cosmos-deployment-scripts": {
+    "^0.1": [
+      "bbc/ibl-episode-hits-pipeline",
+      "bbc/ibl-playback-interactions-queue-processor",
+      "bbc/ibl-playback-interactions-transformer"
+    ]
+  },
+  "@bbc/ibl-credibl-api-client": {
+    "^2": [
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-credibl-retrier",
+      "bbc/ibl-credibl-validator",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-inspector",
+      "bbc/iplayer-tools-credits"
+    ]
+  },
+  "@bbc/ibl-credibl-image-classifier-client": {
+    "^1": [
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-validator"
+    ]
+  },
+  "@bbc/ibl-credibl-text-classifier": {
+    "^1": [
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-validator"
+    ]
+  },
+  "@bbc/ibl-curator": {
+    "^2": [
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-list-fetcher",
+      "bbc/iplayer-tools-curator"
+    ]
+  },
+  "@bbc/ibl-curator-client": {
+    "^2": [
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/iplayer-tools-curator"
+    ]
+  },
+  "@bbc/ibl-experiments-middleware": {
+    "^1": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-user-activity"
+    ]
+  },
+  "@bbc/ibl-grafana-graphs": {
+    "^1": [
+      "bbc/ibl-dashboards"
+    ]
+  },
+  "@bbc/ibl-lists-client": {
+    "^4": [
+      "bbc/ibl-inspector"
+    ],
+    "^5": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-list-fetcher"
+    ]
+  },
+  "@bbc/ibl-master-brands-blacklist": {
+    "^1": [
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-universal-search"
+    ]
+  },
+  "@bbc/ibl-metadata-errors-client": {
+    "^1": [
+      "bbc/ibl-inspector",
+      "bbc/ibl-metadata-errors-ingest"
+    ]
+  },
+  "@bbc/ibl-model-converter": {
+    "0.3.4": [
+      "bbc/ibl-programme-ingest"
+    ],
+    "^0.3": [
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-programme-slices-fetcher"
+    ],
+    "^0.4": [
+      "bbc/ibl-episode-ingest"
+    ]
+  },
+  "@bbc/ibl-passports-client": {
+    "^1": [
+      "bbc/ibl-episode-ingest"
+    ]
+  },
+  "@bbc/ibl-patch-audit": {
+    "^2": [
+      "bbc/cosmos-patch-notifier"
+    ]
+  },
+  "@bbc/ibl-persisted-queries-client": {
+    "^1": [
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-inspector",
+      "bbc/ibl-persisted-queries"
+    ]
+  },
+  "@bbc/ibl-programme-classifier": {
+    "^1": [
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programme-slices-fetcher"
+    ]
+  },
+  "@bbc/ibl-recommendations-client": {
+    "^2": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-user-activity"
+    ]
+  },
+  "@bbc/ibl-repo-badges": {
+    "^1": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-cache-invalidator",
+      "bbc/ibl-chassis-client",
+      "bbc/ibl-coldstart",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-event-list-transformer",
+      "bbc/ibl-experiments-middleware",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-grafana-alerts",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-list-poller",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-persisted-queries-client",
+      "bbc/ibl-popularity-distributor",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-sla-monitor",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-user-activity-client"
+    ]
+  },
+  "@bbc/ibl-schema": {
+    "^2": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-curator",
+      "bbc/ibl-episodes-client",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-nibl",
+      "bbc/ibl-programmes-client",
+      "bbc/ibl-recommendations-client",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-types",
+      "bbc/ibl-user-activity-client"
+    ]
+  },
+  "@bbc/ibl-segementation-client": {
+    "^3": [
+      "bbc/ibl-bundles-api"
+    ]
+  },
+  "@bbc/ibl-slices-client": {
+    "^1": [
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-inspector",
+      "bbc/ibl-programme-slices-fetcher"
+    ]
+  },
+  "@bbc/ibl-swagger-utils": {
+    "^1": [
+      "bbc/ibl-editorial-metadata-api"
+    ]
+  },
+  "@bbc/ibl-tag-client": {
+    "^3": [
+      "bbc/ibl-inspector",
+      "bbc/iplayer-tools-tags"
+    ],
+    "^4": [
+      "bbc/ibl-snapshots",
+      "bbc/ibl-tag-extractor-v2"
+    ],
+    "^5": [
+      "bbc/ibl-curator"
+    ]
+  },
+  "@bbc/ibl-timer-middleware": {
+    "^1": [
+      "bbc/iplayer-tools",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-variants"
+    ]
+  },
+  "@bbc/ibl-timestamp-converter": {
+    "^1": [
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/iplayer-tools-credits"
+    ]
+  },
+  "@bbc/ibl-types": {
+    "^2": [
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-metadata-errors-client",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-persisted-queries-client"
+    ],
+    "^3": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-curator",
+      "bbc/ibl-episodes-client",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-programmes-client",
+      "bbc/ibl-recommendations-client",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-user-activity-client"
+    ]
+  },
+  "@bbc/ibl-user-activity-client": {
+    "^2": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-nibl"
+    ]
+  },
+  "@bbc/ibl-variants-client": {
+    "^3": [
+      "bbc/iplayer-tools-variants"
+    ],
+    "^4": [
+      "bbc/ibl-episode-ingest"
+    ]
+  },
+  "@bbc/ibl-whitelist-middleware": {
+    "^1": [
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-server",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-variants"
+    ]
+  },
+  "@bbc/icat-appw-client": {
+    "^1": [
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-isite-fetcher"
+    ]
+  },
+  "@bbc/iplayer-tools-ui": {
+    "^1": [
+      "bbc/iplayer-tools-preview"
+    ],
+    "^2": [
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-variants"
+    ],
+    "^3": [
+      "bbc/iplayer-tools",
+      "bbc/iplayer-tools-curator"
+    ]
+  },
+  "@bbc/iplayer-web-circuit-breaker": {
+    "^1": [
+      "bbc/iplayer-web-ibl-client"
+    ]
+  },
+  "@bbc/iplayer-web-http-client": {
+    "^3": [
+      "bbc/iplayer-web-ibl-client"
+    ]
+  },
+  "@commitlint/cli": {
+    "^14": [
+      "bbc/consumer-contracts",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-tag-client"
+    ],
+    "^15": [
+      "bbc/ibl-bundles-api"
+    ],
+    "^16": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-curator",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-icat-client",
+      "bbc/ibl-inspector",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-scoreboard-fetcher",
+      "bbc/ibl-search",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-variants-api",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-variants"
+    ]
+  },
+  "@commitlint/config-conventional": {
+    "^14": [
+      "bbc/consumer-contracts",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-tag-client"
+    ],
+    "^15": [
+      "bbc/ibl-bundles-api"
+    ],
+    "^16": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-curator",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-icat-client",
+      "bbc/ibl-inspector",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-scoreboard-fetcher",
+      "bbc/ibl-search",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-variants-api",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-variants"
+    ]
+  },
+  "@google-cloud/language": {
+    "^4": [
+      "bbc/ibl-tag-extractor-v2"
+    ]
+  },
+  "@google-cloud/vision": {
+    "^0.21": [
+      "bbc/ibl-credibl-validator"
+    ]
+  },
+  "@hapi/boom": {
+    "^8": [
+      "bbc/ibl-user-activity"
+    ],
+    "^9": [
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-search",
+      "bbc/ibl-server"
+    ]
+  },
+  "@hapi/joi": {
+    "^16": [
+      "bbc/ibl-feature-tests"
+    ]
+  },
+  "@ibl/analytics-client": {
+    "^1": [
+      "bbc/ibl-inspector",
+      "bbc/ibl-scoreboard-fetcher"
+    ]
+  },
+  "@ibl/audit": {
+    "^2": [
+      "bbc/ibl-clips-api",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programmes-api",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-variants"
+    ],
+    "^3": [
+      "bbc/iplayer-tools-curator"
+    ],
+    "^4": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-episode-notifier",
+      "bbc/ibl-inspector",
+      "bbc/ibl-slices-api"
+    ]
+  },
+  "@ibl/body-validator": {
+    "^1": [
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-episodes-api"
+    ]
+  },
+  "@ibl/broadcasts-client": {
+    "^3": [
+      "bbc/ibl-inspector"
+    ],
+    "^4": [
+      "bbc/ibl-highlights-api"
+    ],
+    "^6": [
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-nibl",
+      "bbc/ibl-schedules-fetcher"
+    ]
+  },
+  "@ibl/categories": {
+    "^11": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-nibl"
+    ]
+  },
+  "@ibl/categoriser": {
+    "^5": [
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-episode-builder",
+      "bbc/ibl-programme-builder",
+      "bbc/ibl-programme-slices-fetcher"
+    ]
+  },
+  "@ibl/category-label": {
+    "^2": [
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-episode-builder",
+      "bbc/ibl-programme-builder"
+    ]
+  },
+  "@ibl/ceych": {
+    "^2": [
+      "bbc/ibl-credibl-validator",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-variants-api"
+    ],
+    "^3": [
+      "bbc/ibl-persisted-queries-api"
+    ],
+    "^4": [
+      "bbc/ibl-episodes-api"
+    ]
+  },
+  "@ibl/channels": {
+    "^3": [
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-inspector",
+      "bbc/ibl-nibl",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-schedules-fetcher"
+    ]
+  },
+  "@ibl/client": {
+    "^3": [
+      "bbc/ibl-credits-tracker",
+      "bbc/ibl-isite-picker"
+    ]
+  },
+  "@ibl/clips-client": {
+    "^1": [
+      "bbc/ibl-clip-poller"
+    ],
+    "^2": [
+      "bbc/ibl-clip-fetcher"
+    ],
+    "^3": [
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-nibl"
+    ]
+  },
+  "@ibl/credentials-handler": {
+    "^2": [
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-user-activity-client"
+    ],
+    "^3": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-recommendations-client",
+      "bbc/ibl-segmentation-client",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer"
+    ]
+  },
+  "@ibl/credibl-image-classifier": {
+    "^0.0": [
+      "bbc/ibl-credibl-validator"
+    ]
+  },
+  "@ibl/credibl-start-time-calculator": {
+    "^3": [
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-validator"
+    ]
+  },
+  "@ibl/documentation-generator": {
+    "^2": [
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-test-app",
+      "bbc/ibl-variants-api"
+    ],
+    "^3": [
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-slices-api"
+    ]
+  },
+  "@ibl/editorial-metadata-client": {
+    "9.0.0": [
+      "bbc/ibl-curator"
+    ],
+    "^4": [
+      "bbc/ibl-clip-fetcher"
+    ],
+    "^6": [
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-group-poller",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-user-activity"
+    ],
+    "^7": [
+      "bbc/ibl-inspector",
+      "bbc/ibl-missing-appw-events"
+    ],
+    "^8": [
+      "bbc/ibl-master-brands-fetcher"
+    ],
+    "^9": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-nibl"
+    ]
+  },
+  "@ibl/episode-builder": {
+    "^21": [
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-universal-search"
+    ],
+    "^22": [
+      "bbc/ibl-episode-ingest"
+    ]
+  },
+  "@ibl/episode-titles": {
+    "^1": [
+      "bbc/ibl-episode-builder"
+    ]
+  },
+  "@ibl/episodes-client": {
+    "^10": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-categories",
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-credibl-janitor",
+      "bbc/ibl-credibl-retrier",
+      "bbc/ibl-curator",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-inspector",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-nibl",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-recommendations-client",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-search",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-universal-search",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-video-sitemap-generator",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-variants"
+    ],
+    "^11": [
+      "bbc/ibl-catalogue-coldstart"
+    ],
+    "^6": [
+      "bbc/ibl-credibl-validator",
+      "bbc/ibl-credits-data-generator"
+    ]
+  },
+  "@ibl/error-concat": {
+    "^1": [
+      "bbc/ibl-clips-api",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-groups-api"
+    ]
+  },
+  "@ibl/fakeredis": {
+    "^1": [
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-universal-search"
+    ],
+    "^2": [
+      "bbc/chaos-cache-evictor"
+    ],
+    "^3": [
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-promotions-service"
+    ]
+  },
+  "@ibl/groups-client": {
+    "^1": [
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-group-poller",
+      "bbc/ibl-inspector"
+    ],
+    "^2": [
+      "bbc/ibl-highlights-api"
+    ],
+    "^3": [
+      "bbc/ibl-curator",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-nibl",
+      "bbc/ibl-popularity-distributor"
+    ]
+  },
+  "@ibl/image-url-builder": {
+    "^1": [
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-episode-builder",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-programme-builder",
+      "bbc/ibl-promotions-service"
+    ]
+  },
+  "@ibl/json-lint": {
+    "^1": [
+      "bbc/chaos-cache-evictor",
+      "bbc/cosmos-patch-notifier",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-cache-invalidator",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-janitor",
+      "bbc/ibl-data-integrity",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-event-list-transformer",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-grafana-alerts",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-group-poller",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-master-brands-fetcher",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-nibl",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-popularity-distributor",
+      "bbc/ibl-popularity-tracker",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-search",
+      "bbc/ibl-sla-monitor",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-translate",
+      "bbc/ibl-universal-search",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-variants-api",
+      "bbc/ibl-video-sitemap-generator",
+      "bbc/iplayer-tools-variants"
+    ]
+  },
+  "@ibl/lambda-deploy": {
+    "^1": [
+      "bbc/chaos-cache-evictor",
+      "bbc/ibl-cache-invalidator",
+      "bbc/ibl-credibl-janitor",
+      "bbc/ibl-credibl-retrier",
+      "bbc/ibl-grafana-alerts",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-inspector-popularity-lambda",
+      "bbc/ibl-kinesis-lambda-consumer-test",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-popularity-janitor",
+      "bbc/ibl-popularity-tracker",
+      "bbc/ibl-remaining-availability-lambda",
+      "bbc/ibl-sla-monitor"
+    ]
+  },
+  "@ibl/lexical-sort": {
+    "^3": [
+      "bbc/ibl-episode-builder",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-programme-builder",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-user-activity"
+    ]
+  },
+  "@ibl/logger": {
+    "^2": [
+      "bbc/ibl-user-play-writer"
+    ],
+    "^3": [
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/iplayer-tools-preview"
+    ],
+    "^4": [
+      "bbc/ibl-playback-interactions-queue-processor",
+      "bbc/ibl-server"
+    ],
+    "^5": [
+      "bbc/cosmos-patch-notifier",
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-cache-invalidator",
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-categories",
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-clip-poller",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-credibl-janitor",
+      "bbc/ibl-credibl-retrier",
+      "bbc/ibl-curator",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episode-notifier",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-episodes-client",
+      "bbc/ibl-event-list-transformer",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-group-poller",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-inspector",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-list-poller",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-master-brands-fetcher",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-nibl",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-popularity-distributor",
+      "bbc/ibl-popularity-janitor",
+      "bbc/ibl-popularity-tracker",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-promotions-poller",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-queue-stats",
+      "bbc/ibl-receng-client",
+      "bbc/ibl-recommendations-client",
+      "bbc/ibl-redis",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-scoreboard-fetcher",
+      "bbc/ibl-search",
+      "bbc/ibl-service",
+      "bbc/ibl-sla-monitor",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-stats",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-universal-search",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-variants-api",
+      "bbc/ibl-video-sitemap-generator",
+      "bbc/iplayer-tools",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-ui",
+      "bbc/iplayer-tools-variants",
+      "bbc/iplayer-web-ibl-client"
+    ]
+  },
+  "@ibl/master-brands-client": {
+    "^1": [
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programmes-api"
+    ],
+    "^3": [
+      "bbc/ibl-clip-fetcher"
+    ],
+    "^4": [
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-master-brands-fetcher",
+      "bbc/ibl-schedules-fetcher"
+    ]
+  },
+  "@ibl/master-brands-converter": {
+    "^1": [
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programmes-api"
+    ]
+  },
+  "@ibl/nitro-client": {
+    "12.0.0": [
+      "bbc/ibl-promotions-service"
+    ],
+    "^10": [
+      "bbc/ibl-snapshots"
+    ],
+    "^11": [
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-tag-extractor-v2"
+    ],
+    "^12": [
+      "bbc/ibl-group-episodes-fetcher"
+    ],
+    "^6": [
+      "bbc/ibl-episodes-api"
+    ],
+    "^7": [
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-inspector",
+      "bbc/ibl-master-brands-fetcher",
+      "bbc/ibl-programmes-api"
+    ],
+    "^9": [
+      "bbc/ibl-clip-poller",
+      "bbc/ibl-universal-search"
+    ]
+  },
+  "@ibl/ops-doctor": {
+    "^1": [
+      "bbc/ops-doctor-cli"
+    ]
+  },
+  "@ibl/paginate": {
+    "^1": [
+      "bbc/ibl-credits-data-generator",
+      "bbc/ibl-group-poller",
+      "bbc/ibl-universal-search",
+      "bbc/ibl-video-sitemap-generator"
+    ],
+    "^2": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-groups-client",
+      "bbc/ibl-inspector",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-popularity-distributor",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-user-activity"
+    ]
+  },
+  "@ibl/pagination-links": {
+    "^1": [
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-variants-api"
+    ],
+    "^2": [
+      "bbc/ibl-curator-api",
+      "bbc/ibl-metadata-errors-api"
+    ]
+  },
+  "@ibl/popularity-client": {
+    "^2": [
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-credibl-retrier",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-inspector",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-popularity-tracker"
+    ],
+    "^3": [
+      "bbc/ibl-popularity-distributor",
+      "bbc/ibl-snapshots"
+    ],
+    "^4": [
+      "bbc/ibl-curator",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-nibl"
+    ]
+  },
+  "@ibl/programme-builder": {
+    "^4": [
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-universal-search"
+    ],
+    "^5": [
+      "bbc/ibl-programme-ingest"
+    ]
+  },
+  "@ibl/programmes-client": {
+    "^1": [
+      "bbc/ibl-inspector",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-universal-search"
+    ],
+    "^3": [
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-user-activity"
+    ],
+    "^4": [
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-categories",
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/ibl-nibl",
+      "bbc/ibl-search"
+    ]
+  },
+  "@ibl/promotions-client": {
+    "^2": [
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-nibl"
+    ]
+  },
+  "@ibl/pushibl": {
+    "^2": [
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-inspector",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-scoreboard-fetcher"
+    ],
+    "^3": [
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-variants-api"
+    ],
+    "^4": [
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episodes-api"
+    ]
+  },
+  "@ibl/queue-stats": {
+    "^3": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episode-notifier",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-tag-extractor-v2"
+    ]
+  },
+  "@ibl/redis": {
+    "^1": [
+      "bbc/ibl-credits-data-generator"
+    ],
+    "^3": [
+      "bbc/chaos-cache-evictor",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-fakeredis",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-universal-search"
+    ]
+  },
+  "@ibl/remaining-availability-text": {
+    "^1": [
+      "bbc/ibl-remaining-availability-lambda",
+      "bbc/ibl-versions-builder"
+    ]
+  },
+  "@ibl/request": {
+    "^4": [
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-data-integrity",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-hubot",
+      "bbc/ibl-inspector",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-variants-api",
+      "bbc/ibl-wormhole"
+    ]
+  },
+  "@ibl/request-validator": {
+    "^1": [
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-user-activity"
+    ],
+    "^2": [
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-variants-api",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-variants"
+    ],
+    "^3": [
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/iplayer-tools-curator"
+    ],
+    "^4": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-search"
+    ]
+  },
+  "@ibl/rest-client": {
+    "^10": [
+      "bbc/cosmos-rpm-overview",
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-episode-notifier",
+      "bbc/ibl-experiment-configurations",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-inspector",
+      "bbc/ibl-metadata-errors-client",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-persisted-queries-client",
+      "bbc/ibl-sla-monitor",
+      "bbc/ibl-slices-client",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-variants-api",
+      "bbc/ibl-weekly-summary"
+    ],
+    "^11": [
+      "bbc/ibl-broadcasts-client",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-chassis-client",
+      "bbc/ibl-clips-client",
+      "bbc/ibl-curator",
+      "bbc/ibl-editorial-metadata-client",
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-groups-client",
+      "bbc/ibl-lists-client",
+      "bbc/ibl-master-brands-client",
+      "bbc/ibl-nibl",
+      "bbc/ibl-nitro-client",
+      "bbc/ibl-passports-client",
+      "bbc/ibl-popularity-client",
+      "bbc/ibl-promotions-client",
+      "bbc/ibl-promotions-poller",
+      "bbc/ibl-search",
+      "bbc/ibl-segmentation-client",
+      "bbc/ibl-tag-client",
+      "bbc/ibl-user-activity-client"
+    ],
+    "^12": [
+      "bbc/ibl-episodes-client",
+      "bbc/ibl-programmes-client"
+    ],
+    "^5": [
+      "bbc/ibl-scribl"
+    ],
+    "^6": [
+      "bbc/ibl-analytics-client",
+      "bbc/ibl-credibl-api-client",
+      "bbc/ibl-credibl-image-classifier-client",
+      "bbc/ibl-credits-data-generator",
+      "bbc/ibl-credits-tracker",
+      "bbc/ibl-credits-validator",
+      "bbc/ibl-hubot",
+      "bbc/ibl-inspector-popularity-lambda",
+      "bbc/iplayer-tools-variants"
+    ],
+    "^9": [
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-list-poller",
+      "bbc/ibl-patch-audit",
+      "bbc/ibl-receng-client",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-variants-client"
+    ]
+  },
+  "@ibl/scoreboard-packer": {
+    "^1": [
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-scoreboard-fetcher"
+    ]
+  },
+  "@ibl/scoreboard-processor": {
+    "^2": [
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor"
+    ]
+  },
+  "@ibl/scribl": {
+    "^1": [
+      "bbc/ibl-qwibl"
+    ]
+  },
+  "@ibl/server": {
+    "^2": [
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-nibl",
+      "bbc/ibl-search",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer"
+    ],
+    "^4": [
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-variants-api",
+      "bbc/iplayer-tools-curator"
+    ]
+  },
+  "@ibl/service": {
+    "^2": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-clip-poller",
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episode-notifier",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-group-poller",
+      "bbc/ibl-list-poller",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-promotions-poller",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-universal-search"
+    ]
+  },
+  "@ibl/set-route-name": {
+    "^1": [
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-nibl",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-variants-api",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-variants"
+    ],
+    "^2": [
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-promotions-service",
+      "bbc/iplayer-tools",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags"
+    ],
+    "^3": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-search"
+    ]
+  },
+  "@ibl/stats": {
+    "^8": [
+      "bbc/ibl-playback-interactions-queue-processor",
+      "bbc/ibl-playback-interactions-transformer",
+      "bbc/ibl-server"
+    ],
+    "^9": [
+      "bbc/chaos-cache-evictor",
+      "bbc/cosmos-patch-notifier",
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-cache-invalidator",
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-categories",
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-clip-poller",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-credibl-janitor",
+      "bbc/ibl-credibl-retrier",
+      "bbc/ibl-curator",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-data-integrity",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episode-notifier",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-episodes-client",
+      "bbc/ibl-event-list-transformer",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-grafana-alerts",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-group-poller",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-inspector",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-kinesis-lambda-consumer-test",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-list-poller",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-master-brands-fetcher",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-nibl",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-popularity-distributor",
+      "bbc/ibl-popularity-janitor",
+      "bbc/ibl-popularity-tracker",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-promotions-poller",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-queue-stats",
+      "bbc/ibl-receng-client",
+      "bbc/ibl-recommendations-client",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-scoreboard-fetcher",
+      "bbc/ibl-search",
+      "bbc/ibl-service",
+      "bbc/ibl-sla-monitor",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-universal-search",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-variants-api",
+      "bbc/ibl-video-sitemap-generator",
+      "bbc/iplayer-tools",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-variants",
+      "bbc/iplayer-web-ibl-client"
+    ]
+  },
+  "@ibl/statsq": {
+    "^1": [
+      "bbc/chaos-cache-evictor",
+      "bbc/ibl-grafana-alerts",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-sla-monitor"
+    ],
+    "^2": [
+      "bbc/cosmos-patch-notifier",
+      "bbc/ibl-cache-invalidator",
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-event-list-transformer",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-master-brands-fetcher",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-playback-interactions-queue-processor",
+      "bbc/ibl-playback-interactions-transformer",
+      "bbc/ibl-popularity-distributor",
+      "bbc/ibl-popularity-janitor",
+      "bbc/ibl-popularity-tracker",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-scoreboard-fetcher"
+    ],
+    "^3": [
+      "bbc/ibl-credibl-janitor",
+      "bbc/ibl-credibl-retrier",
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-video-sitemap-generator"
+    ]
+  },
+  "@ibl/translate": {
+    "^2": [
+      "bbc/ibl-inspector",
+      "bbc/ibl-remaining-availability-lambda",
+      "bbc/ibl-remaining-availability-text"
+    ],
+    "^5": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-programmes-api"
+    ]
+  },
+  "@ibl/upsert": {
+    "^1": [
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-variants-api"
+    ],
+    "^2": [
+      "bbc/ibl-tag-api"
+    ]
+  },
+  "@ibl/versions-builder": {
+    "^1": [
+      "bbc/ibl-clip-fetcher"
+    ],
+    "^2": [
+      "bbc/ibl-programme-ingest"
+    ],
+    "^5": [
+      "bbc/ibl-episode-builder"
+    ]
+  },
+  "@material-ui/core": {
+    "^4": [
+      "bbc/ibl-graph-explorer",
+      "bbc/iplayer-tools-curator"
+    ]
+  },
+  "@material-ui/icons": {
+    "^3": [
+      "bbc/iplayer-tools-curator"
+    ],
+    "^4": [
+      "bbc/ibl-graph-explorer"
+    ]
+  },
+  "@material-ui/lab": {
+    "^4": [
+      "bbc/ibl-graph-explorer"
+    ]
+  },
+  "@material-ui/styles": {
+    "^4": [
+      "bbc/iplayer-tools-curator"
+    ]
+  },
+  "@octokit/rest": {
+    "^16": [
+      "bbc/generator-ibl-node-service",
+      "bbc/generator-ibl-typescript-lambda",
+      "bbc/generator-ibl-typescript-node-api",
+      "bbc/generator-typescript-library",
+      "bbc/ibl-persisted-queries"
+    ],
+    "^17": [
+      "bbc/ibl-weekly-summary"
+    ]
+  },
+  "@octokit/types": {
+    "^2": [
+      "bbc/ibl-weekly-summary"
+    ]
+  },
+  "@testing-library/jest-dom": {
+    "^5": [
+      "bbc/ibl-graph-explorer"
+    ]
+  },
+  "@testing-library/react": {
+    "^11": [
+      "bbc/ibl-graph-explorer"
+    ]
+  },
+  "@testing-library/user-event": {
+    "^12": [
+      "bbc/ibl-graph-explorer"
+    ]
+  },
+  "@types/aws-lambda": {
+    "^8": [
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-episode-hits-pipeline",
+      "bbc/ibl-playback-interactions-queue-processor",
+      "bbc/ibl-playback-interactions-transformer"
+    ]
+  },
+  "@types/aws-sdk": {
+    "^2": [
+      "bbc/ibl-metadata-errors-ingest"
+    ]
+  },
+  "@types/bluebird": {
+    "^3": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-dashboards",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-weekly-summary"
+    ]
+  },
+  "@types/body-parser": {
+    "^1": [
+      "bbc/ibl-graph-fallbacks-handler"
+    ]
+  },
+  "@types/chai": {
+    "^4": [
+      "bbc/flashheart",
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-chassis-client",
+      "bbc/ibl-coldstart",
+      "bbc/ibl-curator",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-experiments-middleware",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-metadata-errors-client",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-model-converter",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-passports-client",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-persisted-queries-client",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-recommendations-client",
+      "bbc/ibl-rest-client",
+      "bbc/ibl-swagger-utils",
+      "bbc/icat-document-client",
+      "bbc/sqs-consumer",
+      "bbc/sqs-producer"
+    ]
+  },
+  "@types/chai-as-promised": {
+    "^7": [
+      "bbc/ibl-bundles-api"
+    ]
+  },
+  "@types/commander": {
+    "^2": [
+      "bbc/ibl-dashboards"
+    ]
+  },
+  "@types/config": {
+    "0.0.36": [
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-programme-slice-queue-janitor"
+    ],
+    "0.0.39": [
+      "bbc/ibl-playback-interactions-queue-processor",
+      "bbc/ibl-playback-interactions-transformer"
+    ],
+    "0.0.41": [
+      "bbc/ibl-catalogue-coldstart"
+    ],
+    "^0.0": [
+      "bbc/ibl-dashboards"
+    ]
+  },
+  "@types/cucumber": {
+    "^4": [
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-graph-resolver"
+    ]
+  },
+  "@types/debug": {
+    "^4": [
+      "bbc/sqs-consumer",
+      "bbc/sqs-producer"
+    ]
+  },
+  "@types/express": {
+    "^4": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver"
+    ]
+  },
+  "@types/express-serve-static-core": {
+    "^4": [
+      "bbc/ibl-bundles-api"
+    ]
+  },
+  "@types/graphql": {
+    "^14": [
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-persisted-queries-api"
+    ]
+  },
+  "@types/jest": {
+    "^26": [
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-dashboards",
+      "bbc/ibl-episode-hits-pipeline"
+    ],
+    "^27": [
+      "bbc/ibl-icat-client",
+      "bbc/ibl-playback-interactions-queue-processor",
+      "bbc/ibl-playback-interactions-transformer",
+      "bbc/ibl-stacks"
+    ]
+  },
+  "@types/joi": {
+    "^14": [
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-metadata-errors-api"
+    ]
+  },
+  "@types/lodash": {
+    "^4": [
+      "bbc/flashheart",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-curator",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-dashboards",
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-metadata-errors-client",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-persisted-queries-client",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-recommendations-client",
+      "bbc/ibl-rest-client",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-weekly-summary"
+    ]
+  },
+  "@types/mocha": {
+    "^2": [
+      "bbc/flashheart",
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-curator",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-experiments-middleware",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-model-converter",
+      "bbc/ibl-rest-client",
+      "bbc/icat-document-client"
+    ],
+    "^5": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-coldstart",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-metadata-errors-client",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-passports-client",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-persisted-queries-client",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-swagger-utils"
+    ],
+    "^7": [
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/sqs-consumer",
+      "bbc/sqs-producer"
+    ],
+    "^8": [
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-programme-slice-queue-janitor"
+    ],
+    "^9": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-chassis-client",
+      "bbc/ibl-recommendations-client"
+    ]
+  },
+  "@types/moment": {
+    "^2": [
+      "bbc/ibl-graph-fallbacks-handler"
+    ]
+  },
+  "@types/nock": {
+    "^10": [
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-persisted-queries-client"
+    ],
+    "^11": [
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-passports-client"
+    ],
+    "^9": [
+      "bbc/flashheart",
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-rest-client"
+    ]
+  },
+  "@types/node": {
+    "10.17.27": [
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-episode-hits-pipeline"
+    ],
+    "^10": [
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-curator",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-model-converter",
+      "bbc/icat-document-client"
+    ],
+    "^12": [
+      "bbc/ibl-chassis-client",
+      "bbc/ibl-dashboards",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-recommendations-client"
+    ],
+    "^13": [
+      "bbc/ibl-weekly-summary",
+      "bbc/sqs-producer"
+    ],
+    "^14": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-playback-interactions-transformer",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-stacks",
+      "bbc/sqs-consumer"
+    ],
+    "^16": [
+      "bbc/ibl-playback-interactions-queue-processor"
+    ],
+    "^17": [
+      "bbc/ibl-icat-client"
+    ],
+    "^8": [
+      "bbc/ibl-coldstart",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-metadata-errors-client",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-passports-client",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-persisted-queries-client",
+      "bbc/ibl-swagger-utils"
+    ]
+  },
+  "@types/redis": {
+    "^2": [
+      "bbc/flashheart",
+      "bbc/ibl-rest-client"
+    ]
+  },
+  "@types/request": {
+    "^2": [
+      "bbc/http-transport"
+    ]
+  },
+  "@types/sinon": {
+    "^10": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-chassis-client",
+      "bbc/ibl-recommendations-client"
+    ],
+    "^4": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-coldstart",
+      "bbc/ibl-curator",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-experiments-middleware",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-metadata-errors-client",
+      "bbc/ibl-model-converter",
+      "bbc/ibl-passports-client",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-persisted-queries-client",
+      "bbc/ibl-swagger-utils"
+    ],
+    "^7": [
+      "bbc/flashheart",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-rest-client",
+      "bbc/icat-document-client"
+    ],
+    "^9": [
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/sqs-consumer",
+      "bbc/sqs-producer"
+    ]
+  },
+  "@types/superagent": {
+    "^4": [
+      "bbc/ibl-bundles-api"
+    ]
+  },
+  "@types/supertest": {
+    "^2": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-persisted-queries-api"
+    ]
+  },
+  "@types/typescript": {
+    "^2": [
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-experiments-middleware",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-model-converter",
+      "bbc/icat-document-client",
+      "bbc/sqs-consumer"
+    ]
+  },
+  "@types/uuid": {
+    "^8": [
+      "bbc/ibl-recommendations-client"
+    ]
+  },
+  "@typescript-eslint/eslint-plugin": {
+    "^4": [
+      "bbc/icat-document-client"
+    ],
+    "^5": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-stacks"
+    ]
+  },
+  "@typescript-eslint/parser": {
+    "^4": [
+      "bbc/icat-document-client"
+    ],
+    "^5": [
+      "bbc/ibl-stacks"
+    ]
+  },
+  "ajv": {
+    "^6": [
+      "bbc/ibl-swagger-utils"
+    ]
+  },
+  "assert": {
+    "^1": [
+      "bbc/ibl-categoriser"
+    ]
+  },
+  "assert-diff": {
+    "0.0.4": [
+      "bbc/ibl-nibl",
+      "bbc/ibl-programme-ingest"
+    ]
+  },
+  "async": {
+    "^0.9": [
+      "bbc/cosmos-cli",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-github-watch",
+      "bbc/ibl-inspector",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-nitro-client",
+      "bbc/ibl-queue-stats",
+      "bbc/ibl-smashibl-admin",
+      "bbc/ibl-user-activity"
+    ],
+    "^1": [
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-jenkins-generator",
+      "bbc/ibl-open-source-stats",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-promotions-poller",
+      "bbc/ibl-qwibl",
+      "bbc/repository-directory"
+    ],
+    "^2": [
+      "bbc/chaos-cache-evictor",
+      "bbc/cloud-varnish-test",
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-clip-poller",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-credibl-janitor",
+      "bbc/ibl-credibl-retrier",
+      "bbc/ibl-credibl-validator",
+      "bbc/ibl-credits-data-generator",
+      "bbc/ibl-credits-tracker",
+      "bbc/ibl-credits-validator",
+      "bbc/ibl-data-integrity",
+      "bbc/ibl-github-webhooks",
+      "bbc/ibl-group-poller",
+      "bbc/ibl-inspector-popularity-lambda",
+      "bbc/ibl-monitoring-queries",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-popularity-janitor",
+      "bbc/ibl-popularity-tracker",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-scoreboard-fetcher",
+      "bbc/ibl-scoreboard-processor",
+      "bbc/ibl-statsq",
+      "bbc/ibl-test-app",
+      "bbc/ibl-universal-search",
+      "bbc/ibl-user-play-writer",
+      "bbc/iplayer-appletv-snflk",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-variants",
+      "bbc/nockout",
+      "bbc/ops-doctor"
+    ],
+    "^3": [
+      "bbc/consumer-contracts",
+      "bbc/generator-ibl-node-api",
+      "bbc/ibl-documentation-generator",
+      "bbc/ibl-hubot",
+      "bbc/ibl-master-brands-fetcher",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-video-sitemap-generator"
+    ]
+  },
+  "auto-bind": {
+    "^1": [
+      "bbc/ibl-credibl-image-classifier-client",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-lists-client",
+      "bbc/ibl-slices-client",
+      "bbc/ibl-variants-client"
+    ],
+    "^2": [
+      "bbc/ibl-programme-ingest"
+    ]
+  },
+  "aws-cdk": {
+    "1.128.0": [
+      "bbc/ibl-stacks"
+    ],
+    "^1": [
+      "bbc/ibl-episode-hits-pipeline"
+    ],
+    "^2": [
+      "bbc/ibl-catalogue-coldstart"
+    ]
+  },
+  "aws-cdk-lib": {
+    "^2": [
+      "bbc/ibl-catalogue-coldstart"
+    ]
+  },
+  "aws-embedded-metrics": {
+    "^2": [
+      "bbc/ibl-statsq"
+    ]
+  },
+  "aws-kinesis-agg": {
+    "^2": [
+      "bbc/ibl-kinesis-lambda-consumer-test"
+    ]
+  },
+  "aws-sdk": {
+    "^2": [
+      "bbc/cosmos-patch-notifier",
+      "bbc/ibl-cache-invalidator",
+      "bbc/ibl-coldstart",
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-credibl-janitor",
+      "bbc/ibl-credibl-validator",
+      "bbc/ibl-credits-data-generator",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-graph-documentation",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-inspector",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-kinesis-lambda-consumer-test",
+      "bbc/ibl-lambda-deploy",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-popularity-distributor",
+      "bbc/ibl-popularity-tracker",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-pushibl",
+      "bbc/ibl-queue-stats",
+      "bbc/ibl-repo-badges",
+      "bbc/ibl-smashibl-admin",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-universal-search",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-variants-api",
+      "bbc/ibl-video-sitemap-generator",
+      "bbc/icat-document-client",
+      "bbc/sqs-consumer",
+      "bbc/sqs-producer"
+    ]
+  },
+  "aws-sdk-client-mock": {
+    "^0.5": [
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-episode-hits-pipeline",
+      "bbc/ibl-inspector",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-playback-interactions-queue-processor",
+      "bbc/ibl-playback-interactions-transformer",
+      "bbc/ibl-scoreboard-fetcher"
+    ],
+    "^0.6": [
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-icat-client"
+    ]
+  },
+  "aws-sdk-mock": {
+    "^4": [
+      "bbc/icat-document-client"
+    ],
+    "^5": [
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-popularity-distributor"
+    ]
+  },
+  "aws-xray-sdk": {
+    "^1": [
+      "bbc/ibl-slices-api",
+      "bbc/ibl-tag-api"
+    ]
+  },
+  "axios": {
+    "^0.15": [
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-variants"
+    ],
+    "^0.18": [
+      "bbc/ibl-experiment-configurations"
+    ],
+    "^0.21": [
+      "bbc/ibl-graph-explorer"
+    ]
+  },
+  "babel-core": {
+    "^6": [
+      "bbc/iplayer-tools-credits"
+    ],
+    "^7": [
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags"
+    ]
+  },
+  "babel-eslint": {
+    "^10": [
+      "bbc/flashheart",
+      "bbc/ibl-rest-client"
+    ],
+    "^8": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-curator",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-experiments-middleware",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-model-converter",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/icat-document-client"
+    ]
+  },
+  "babel-jest": {
+    "^23": [
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags"
+    ]
+  },
+  "babel-loader": {
+    "^7": [
+      "bbc/iplayer-tools-credits"
+    ],
+    "^8": [
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags"
+    ]
+  },
+  "babel-preset-env": {
+    "^1": [
+      "bbc/iplayer-tools-credits"
+    ]
+  },
+  "babel-preset-react": {
+    "^6": [
+      "bbc/iplayer-tools-credits"
+    ]
+  },
+  "bitly": {
+    "^4": [
+      "bbc/ibl-hubot"
+    ]
+  },
+  "bluebird": {
+    "^3": [
+      "bbc/cosmos-rpm-overview",
+      "bbc/http-transport",
+      "bbc/http-transport-callbacks",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-credibl-text-classifier",
+      "bbc/ibl-credibl-validator",
+      "bbc/ibl-curator",
+      "bbc/ibl-dashboards",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episodes-client",
+      "bbc/ibl-fakeredis",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-inspector",
+      "bbc/ibl-json-lint",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-patch-audit",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-redis",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-weekly-summary",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-web-ibl-client"
+    ]
+  },
+  "body-parser": {
+    "^1": [
+      "bbc/bundle-builder",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-credits-data-generator",
+      "bbc/ibl-credits-tracker",
+      "bbc/ibl-credits-validator",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-github-watch",
+      "bbc/ibl-grafana-alerting",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-hubot",
+      "bbc/ibl-inspector",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-smashibl-admin",
+      "bbc/ibl-swagger-utils",
+      "bbc/ibl-test-app",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-variants-api",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-variants"
+    ]
+  },
+  "boom": {
+    "^2": [
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-nibl",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-user-activity"
+    ],
+    "^3": [
+      "bbc/ibl-clips-api",
+      "bbc/repository-directory"
+    ],
+    "^4": [
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-test-app",
+      "bbc/ibl-variants-api",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-ui",
+      "bbc/iplayer-tools-variants"
+    ],
+    "^5": [
+      "bbc/ibl-user-play-writer"
+    ],
+    "^7": [
+      "bbc/ibl-credentials-handler",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-experiments-middleware",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-request-validator",
+      "bbc/ibl-tag-api",
+      "bbc/iplayer-tools"
+    ]
+  },
+  "bootstrap": {
+    "^3": [
+      "bbc/bundle-builder"
+    ],
+    "^4": [
+      "bbc/iplayer-tools-ui",
+      "bbc/repository-directory"
+    ]
+  },
+  "buffer-equal": {
+    "^1": [
+      "bbc/ibl-credibl-gif-generator"
+    ]
+  },
+  "canvas": {
+    "^2": [
+      "bbc/ibl-credibl-gif-generator"
+    ]
+  },
+  "cartesian": {
+    "^1": [
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-list-poller"
+    ]
+  },
+  "case-it": {
+    "^1": [
+      "bbc/ibl-programme-slices-fetcher"
+    ]
+  },
+  "catbox": {
+    "^10": [
+      "bbc/ceych",
+      "bbc/flashheart",
+      "bbc/http-transport-cache",
+      "bbc/ibl-ceych",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-rest-client"
+    ]
+  },
+  "catbox-memory": {
+    "^3": [
+      "bbc/flashheart",
+      "bbc/http-transport-cache",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-rest-client"
+    ],
+    "^4": [
+      "bbc/ceych",
+      "bbc/ibl-graph-fallbacks-handler"
+    ]
+  },
+  "catbox-redis": {
+    "^3": [
+      "bbc/ibl-episodes-api"
+    ],
+    "^4": [
+      "bbc/ibl-ceych",
+      "bbc/ibl-rest-client"
+    ]
+  },
+  "ceych": {
+    "^4": [
+      "bbc/ibl-ceych",
+      "bbc/ibl-graph-fallbacks-handler"
+    ]
+  },
+  "chai": {
+    "^2": [
+      "bbc/ibl-categoriser",
+      "bbc/ibl-episode-builder",
+      "bbc/ibl-nitro-client",
+      "bbc/ibl-programme-builder",
+      "bbc/ibl-promotions-poller",
+      "bbc/ibl-user-activity"
+    ],
+    "^3": [
+      "bbc/http-transport",
+      "bbc/http-transport-to-error",
+      "bbc/ibl-channels",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-hubot",
+      "bbc/ibl-programmes-api",
+      "bbc/ops-doctor-cli"
+    ],
+    "^4": [
+      "bbc/ceych",
+      "bbc/consumer-contracts",
+      "bbc/flashheart",
+      "bbc/http-transport-cache",
+      "bbc/http-transport-callbacks",
+      "bbc/http-transport-circuit-breaker",
+      "bbc/http-transport-request-collapse",
+      "bbc/http-transport-statsd",
+      "bbc/http-transport-xray",
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-categories",
+      "bbc/ibl-chassis-client",
+      "bbc/ibl-coldstart",
+      "bbc/ibl-curator",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-experiments-middleware",
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-master-brands-fetcher",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-metadata-errors-client",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-model-converter",
+      "bbc/ibl-nibl",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-passports-client",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-persisted-queries-client",
+      "bbc/ibl-popularity-distributor",
+      "bbc/ibl-programme-classifier",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-pushibl",
+      "bbc/ibl-receng-client",
+      "bbc/ibl-recommendations-client",
+      "bbc/ibl-rest-client",
+      "bbc/ibl-search",
+      "bbc/ibl-server",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-slices-client",
+      "bbc/ibl-statsq",
+      "bbc/ibl-swagger-utils",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-translate",
+      "bbc/ibl-video-sitemap-generator",
+      "bbc/icat-document-client",
+      "bbc/sqs-consumer",
+      "bbc/sqs-producer"
+    ]
+  },
+  "chai-as-promised": {
+    "^7": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-master-brands-fetcher",
+      "bbc/ibl-video-sitemap-generator"
+    ]
+  },
+  "chalk": {
+    "^0.5": [
+      "bbc/cosmos-cli"
+    ],
+    "^1": [
+      "bbc/generator-ibl-lambda-function",
+      "bbc/generator-ibl-node-lib",
+      "bbc/generator-ibl-node-service",
+      "bbc/ibl-credibl-validator",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-jenkins-generator",
+      "bbc/ibl-json-lint",
+      "bbc/ops-doctor-cli"
+    ],
+    "^2": [
+      "bbc/generator-ibl-node-api",
+      "bbc/generator-typescript-library",
+      "bbc/ibl-experiment-configurations",
+      "bbc/ibl-variants-api"
+    ],
+    "^4": [
+      "bbc/consumer-contracts",
+      "bbc/ibl-schema"
+    ]
+  },
+  "cloudhound": {
+    "0.0.6": [
+      "bbc/ibl-inspector"
+    ]
+  },
+  "codeclimate-test-reporter": {
+    "^0.5": [
+      "bbc/http-transport",
+      "bbc/http-transport-to-error",
+      "bbc/speculate",
+      "bbc/sqs-consumer",
+      "bbc/sqs-producer"
+    ]
+  },
+  "coffee-script": {
+    "^1": [
+      "bbc/ibl-hubot"
+    ]
+  },
+  "colors": {
+    "^1": [
+      "bbc/ibl-curator",
+      "bbc/ibl-qwibl",
+      "bbc/ibl-scribl"
+    ]
+  },
+  "columnify": {
+    "^1": [
+      "bbc/cosmos-cli",
+      "bbc/ops-doctor-cli"
+    ]
+  },
+  "commander": {
+    "^2": [
+      "bbc/cosmos-cli",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-json-lint",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-qwibl",
+      "bbc/ibl-scribl",
+      "bbc/ops-doctor-cli",
+      "bbc/speculate"
+    ],
+    "^3": [
+      "bbc/ibl-persisted-queries"
+    ],
+    "^4": [
+      "bbc/ibl-metadata-errors-ingest"
+    ],
+    "^6": [
+      "bbc/ibl-dashboards"
+    ],
+    "^8": [
+      "bbc/consumer-contracts"
+    ]
+  },
+  "commander-tabtab": {
+    "~0.1.0": [
+      "bbc/cosmos-cli"
+    ]
+  },
+  "compromise": {
+    "^11": [
+      "bbc/ibl-credibl-text-classifier"
+    ]
+  },
+  "config": {
+    "^1": [
+      "bbc/chaos-cache-evictor",
+      "bbc/cosmos-patch-notifier",
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-cache-invalidator",
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-clip-poller",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-credibl-janitor",
+      "bbc/ibl-credibl-retrier",
+      "bbc/ibl-credits-tracker",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-data-integrity",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episode-notifier",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-event-list-transformer",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-github-watch",
+      "bbc/ibl-grafana-alerts",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-group-poller",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-inspector",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-list-poller",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-master-brands-fetcher",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-nibl",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-popularity-janitor",
+      "bbc/ibl-popularity-tracker",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-promotions-poller",
+      "bbc/ibl-receng-client",
+      "bbc/ibl-redis",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-scoreboard-fetcher",
+      "bbc/ibl-sla-monitor",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-test-lambda",
+      "bbc/ibl-universal-search",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-variants-api",
+      "bbc/ibl-video-sitemap-generator",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-variants"
+    ],
+    "^2": [
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-web-ibl-client"
+    ],
+    "^3": [
+      "bbc/ibl-audit",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-categories",
+      "bbc/ibl-curator",
+      "bbc/ibl-dashboards",
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-logger",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-playback-interactions-queue-processor",
+      "bbc/ibl-playback-interactions-transformer",
+      "bbc/ibl-popularity-distributor",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-search",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-stats",
+      "bbc/iplayer-statsd",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-ui"
+    ]
+  },
+  "connect-flash": {
+    "^0.1": [
+      "bbc/ibl-inspector",
+      "bbc/ibl-smashibl-admin"
+    ]
+  },
+  "constructs": {
+    "^10": [
+      "bbc/ibl-catalogue-coldstart"
+    ]
+  },
+  "consumer-contracts": {
+    "^1": [
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-variants-api"
+    ],
+    "^3": [
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-rest-client"
+    ]
+  },
+  "cookie": {
+    "^0.3": [
+      "bbc/ibl-credentials-handler"
+    ]
+  },
+  "cookie-parser": {
+    "^1": [
+      "bbc/ibl-inspector"
+    ]
+  },
+  "copy-paste": {
+    "^1": [
+      "bbc/ibl-scribl"
+    ]
+  },
+  "cors": {
+    "^2": [
+      "bbc/ibl-inspector",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-server",
+      "bbc/iplayer-tools-curator"
+    ]
+  },
+  "cosmos-cli": {
+    "github:bbc/cosmos-cli": [
+      "bbc/ibl-hubot"
+    ]
+  },
+  "cosmos-deploy": {
+    "github:bbc/cosmos-deploy#semver:3.5.0-ibl.1": [
+      "bbc/ibl-metadata-errors-ingest"
+    ],
+    "github:bbc/cosmos-deploy#semver:3.6.4-pre.1": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-curator-api"
+    ],
+    "github:bbc/cosmos-deploy#semver:>3.5.0-ibl <3.5.0": [
+      "bbc/ibl-clip-poller",
+      "bbc/ibl-metadata-errors-api"
+    ],
+    "github:bbc/cosmos-deploy#semver:^3.0.0": [
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-cache",
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-databases",
+      "bbc/ibl-documentation",
+      "bbc/ibl-edibl",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episode-notifier",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-forward-proxy",
+      "bbc/ibl-graph-edge",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-group-poller",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-hubot",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-isite-proxy",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-list-poller",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-nibl",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-promotions-poller",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-smashibl-admin",
+      "bbc/ibl-smashibl-cluster",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-universal-search",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-variants-api",
+      "bbc/iplayer-tools",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-variants"
+    ],
+    "github:bbc/cosmos-deploy#semver:^3.6.3": [
+      "bbc/ibl-test-repo"
+    ],
+    "github:bbc/cosmos-deploy#semver:^3.6.4-pre.1": [
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-inspector",
+      "bbc/ibl-search"
+    ]
+  },
+  "coveralls": {
+    "^3": [
+      "bbc/http-transport",
+      "bbc/http-transport-to-error"
+    ]
+  },
+  "crypto": {
+    "^1": [
+      "bbc/ibl-curator-api",
+      "bbc/ibl-metadata-errors-api"
+    ]
+  },
+  "css-loader": {
+    "^1": [
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags"
+    ]
+  },
+  "csv": {
+    "^0.4": [
+      "bbc/ibl-inspector"
+    ],
+    "^1": [
+      "bbc/ibl-monitoring-queries",
+      "bbc/ibl-universal-search"
+    ],
+    "^5": [
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-snapshots"
+    ]
+  },
+  "cucumber": {
+    "^5": [
+      "bbc/ibl-feature-tests"
+    ],
+    "^6": [
+      "bbc/ibl-graph-resolver"
+    ]
+  },
+  "cucumber-html-reporter": {
+    "^5": [
+      "bbc/ibl-feature-tests"
+    ]
+  },
+  "curl-string": {
+    "^1": [
+      "bbc/ibl-graph-explorer"
+    ]
+  },
+  "debug": {
+    "^2": [
+      "bbc/ibl-jenkins-generator",
+      "bbc/ibl-nitro-client",
+      "bbc/ibl-queue-stats",
+      "bbc/node-cosmos"
+    ],
+    "^4": [
+      "bbc/consumer-contracts",
+      "bbc/sqs-consumer"
+    ]
+  },
+  "deep-diff": {
+    "^1": [
+      "bbc/ibl-episode-ingest"
+    ]
+  },
+  "diacritics": {
+    "^1": [
+      "bbc/ibl-lexical-sort"
+    ]
+  },
+  "diskusage": {
+    "^0.1": [
+      "bbc/ops-doctor",
+      "bbc/ops-doctor-cli"
+    ]
+  },
+  "dtsgenerator": {
+    "^2": [
+      "bbc/ibl-chassis-client"
+    ]
+  },
+  "elasticsearch": {
+    "^12": [
+      "bbc/ibl-monitoring-queries"
+    ],
+    "^4": [
+      "bbc/ibl-github-watch"
+    ]
+  },
+  "enzyme": {
+    "^3": [
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags"
+    ]
+  },
+  "enzyme-adapter-react-16": {
+    "^1": [
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags"
+    ]
+  },
+  "esbuild": {
+    "^0.12": [
+      "bbc/ibl-playback-interactions-transformer"
+    ],
+    "^0.13": [
+      "bbc/ibl-episode-hits-pipeline",
+      "bbc/ibl-playback-interactions-queue-processor"
+    ],
+    "^0.14": [
+      "bbc/ibl-catalogue-coldstart"
+    ]
+  },
+  "eslint": {
+    "^1": [
+      "bbc/ibl-qwibl"
+    ],
+    "^2": [
+      "bbc/cloud-varnish-test",
+      "bbc/ibl-analytics-client",
+      "bbc/ibl-category-label",
+      "bbc/ibl-channels",
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-clip-poller",
+      "bbc/ibl-credibl-api-client",
+      "bbc/ibl-credibl-image-classifier-client",
+      "bbc/ibl-credibl-image-classifier-spike",
+      "bbc/ibl-credibl-start-time-calculator",
+      "bbc/ibl-episode-notifier",
+      "bbc/ibl-episode-titles",
+      "bbc/ibl-github-webhooks",
+      "bbc/ibl-group-poller",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-hubot",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-json-lint",
+      "bbc/ibl-kinesis-lambda-consumer-test",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-master-brands-blacklist",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-receng-client",
+      "bbc/ibl-remaining-availability-lambda",
+      "bbc/ibl-remaining-availability-text",
+      "bbc/ibl-scribl",
+      "bbc/ibl-timer-middleware",
+      "bbc/ibl-timestamp-converter",
+      "bbc/ibl-variants-client",
+      "bbc/ibl-versions-builder",
+      "bbc/moment-relative",
+      "bbc/ops-doctor",
+      "bbc/ops-doctor-cli",
+      "bbc/repository-directory"
+    ],
+    "^3": [
+      "bbc/bundle-builder",
+      "bbc/chaos-cache-evictor",
+      "bbc/generator-ibl-spec-project",
+      "bbc/generator-iplayer-tools",
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-credentials-handler",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-credibl-validator",
+      "bbc/ibl-credits-data-generator",
+      "bbc/ibl-credits-tracker",
+      "bbc/ibl-credits-validator",
+      "bbc/ibl-error-concat",
+      "bbc/ibl-fakeredis",
+      "bbc/ibl-grafana-alerts",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-image-url-builder",
+      "bbc/ibl-inspector",
+      "bbc/ibl-inspector-popularity-lambda",
+      "bbc/ibl-lexical-sort",
+      "bbc/ibl-master-brands-client",
+      "bbc/ibl-master-brands-converter",
+      "bbc/ibl-monitoring-queries",
+      "bbc/ibl-pagination-links",
+      "bbc/ibl-programme-builder",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-programmes-client",
+      "bbc/ibl-queue-stats",
+      "bbc/ibl-scoreboard-processor",
+      "bbc/ibl-stats",
+      "bbc/ibl-statsq",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-test-lambda",
+      "bbc/ibl-translate",
+      "bbc/ibl-user-activity",
+      "bbc/iplayer-tools",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-preview",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-ui",
+      "bbc/iplayer-tools-variants",
+      "bbc/nockout"
+    ],
+    "^4": [
+      "bbc/http-transport",
+      "bbc/http-transport-callbacks",
+      "bbc/http-transport-circuit-breaker",
+      "bbc/http-transport-rate-limiter",
+      "bbc/http-transport-request-collapse",
+      "bbc/http-transport-to-error",
+      "bbc/http-transport-xray",
+      "bbc/ibl-credibl-text-classifier",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-data-integrity",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-grafana-alerting",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-list-poller",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-slices-client",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-user-play-writer",
+      "bbc/iplayer-appletv-snflk"
+    ],
+    "^5": [
+      "bbc/generator-ibl-typescript-lambda",
+      "bbc/generator-ibl-typescript-node-api",
+      "bbc/generator-typescript-library",
+      "bbc/ibl-paginate",
+      "bbc/ibl-patch-audit",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/iplayer-web-ibl-client"
+    ],
+    "^6": [
+      "bbc/flashheart",
+      "bbc/generator-ibl-node-api",
+      "bbc/http-transport-statsd",
+      "bbc/ibl-ceych",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-programme-classifier",
+      "bbc/ibl-upsert",
+      "bbc/ibl-variants-api",
+      "bbc/iplayer-statsd"
+    ],
+    "^7": [
+      "bbc/ceych",
+      "bbc/eslint-config-iplayer",
+      "bbc/eslint-config-iplayer-base",
+      "bbc/http-transport-cache",
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-chassis-client",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-coldstart",
+      "bbc/ibl-curator",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-dashboards",
+      "bbc/ibl-editorial-metadata-client",
+      "bbc/ibl-experiments-middleware",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-metadata-errors-client",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-model-converter",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-passports-client",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-persisted-queries-client",
+      "bbc/ibl-playback-interactions-queue-processor",
+      "bbc/ibl-playback-interactions-transformer",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-pushibl",
+      "bbc/ibl-recommendations-client",
+      "bbc/ibl-repo-badges",
+      "bbc/ibl-rest-client",
+      "bbc/ibl-scoreboard-fetcher",
+      "bbc/ibl-swagger-utils",
+      "bbc/ibl-universal-search",
+      "bbc/icat-document-client",
+      "bbc/sqs-consumer"
+    ],
+    "^8": [
+      "bbc/consumer-contracts",
+      "bbc/cosmos-patch-notifier",
+      "bbc/eslint-config-iplayer-jsx",
+      "bbc/ibl-audit",
+      "bbc/ibl-broadcasts-client",
+      "bbc/ibl-cache-invalidator",
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-categories",
+      "bbc/ibl-categoriser",
+      "bbc/ibl-clips-client",
+      "bbc/ibl-credibl-janitor",
+      "bbc/ibl-credibl-retrier",
+      "bbc/ibl-documentation-generator",
+      "bbc/ibl-episode-builder",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-episodes-client",
+      "bbc/ibl-event-list-transformer",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-groups-client",
+      "bbc/ibl-icat-client",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-lists-client",
+      "bbc/ibl-master-brands-fetcher",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-nibl",
+      "bbc/ibl-nitro-client",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-popularity-client",
+      "bbc/ibl-popularity-distributor",
+      "bbc/ibl-popularity-janitor",
+      "bbc/ibl-popularity-tracker",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-promotions-client",
+      "bbc/ibl-promotions-poller",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-redis",
+      "bbc/ibl-request-validator",
+      "bbc/ibl-schema",
+      "bbc/ibl-search",
+      "bbc/ibl-segmentation-client",
+      "bbc/ibl-set-route-name",
+      "bbc/ibl-sla-monitor",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-stacks",
+      "bbc/ibl-tag-client",
+      "bbc/ibl-user-activity-client",
+      "bbc/ibl-video-sitemap-generator",
+      "bbc/speculate"
+    ]
+  },
+  "eslint-config-iplayer": {
+    "^6": [
+      "bbc/generator-iplayer-tools",
+      "bbc/http-transport-to-error",
+      "bbc/ibl-paginate",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-tag-client",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-web-ibl-client"
+    ],
+    "^7": [
+      "bbc/http-transport-cache",
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-editorial-metadata-client",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-master-brands-client",
+      "bbc/ibl-master-brands-fetcher",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-popularity-distributor",
+      "bbc/ibl-repo-badges",
+      "bbc/ibl-scoreboard-fetcher",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-universal-search",
+      "bbc/ibl-video-sitemap-generator",
+      "bbc/iplayer-statsd"
+    ],
+    "^8": [
+      "bbc/consumer-contracts",
+      "bbc/eslint-config-iplayer-jsx",
+      "bbc/ibl-audit",
+      "bbc/ibl-broadcasts-client",
+      "bbc/ibl-categories",
+      "bbc/ibl-clips-client",
+      "bbc/ibl-documentation-generator",
+      "bbc/ibl-episode-builder",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-episodes-client",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-groups-client",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-lists-client",
+      "bbc/ibl-nibl",
+      "bbc/ibl-nitro-client",
+      "bbc/ibl-popularity-client",
+      "bbc/ibl-promotions-client",
+      "bbc/ibl-promotions-poller",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-redis",
+      "bbc/ibl-request-validator",
+      "bbc/ibl-schema",
+      "bbc/ibl-search",
+      "bbc/ibl-segmentation-client",
+      "bbc/ibl-user-activity-client",
+      "bbc/icat-document-client",
+      "bbc/speculate"
+    ]
+  },
+  "eslint-config-iplayer-base": {
+    "^1": [
+      "bbc/flashheart",
+      "bbc/generator-ibl-node-api",
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-coldstart",
+      "bbc/ibl-curator",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-experiments-middleware",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-persisted-queries-api"
+    ],
+    "^2": [
+      "bbc/eslint-config-iplayer",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-model-converter",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-rest-client"
+    ]
+  },
+  "eslint-config-iplayer-es6": {
+    "^1": [
+      "bbc/http-transport-circuit-breaker",
+      "bbc/http-transport-rate-limiter",
+      "bbc/ibl-analytics-client",
+      "bbc/ibl-categoriser",
+      "bbc/ibl-category-label",
+      "bbc/ibl-channels",
+      "bbc/ibl-clip-poller",
+      "bbc/ibl-credibl-api-client",
+      "bbc/ibl-credibl-image-classifier-client",
+      "bbc/ibl-credibl-image-classifier-spike",
+      "bbc/ibl-credibl-start-time-calculator",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episode-notifier",
+      "bbc/ibl-group-poller",
+      "bbc/ibl-hubot",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-json-lint",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-master-brands-blacklist",
+      "bbc/ibl-programme-classifier",
+      "bbc/ibl-qwibl",
+      "bbc/ibl-receng-client",
+      "bbc/ibl-remaining-availability-text",
+      "bbc/ibl-scribl",
+      "bbc/ibl-timer-middleware",
+      "bbc/ibl-timestamp-converter",
+      "bbc/ibl-upsert",
+      "bbc/ibl-variants-client",
+      "bbc/ibl-versions-builder",
+      "bbc/ops-doctor",
+      "bbc/ops-doctor-cli"
+    ],
+    "^2": [
+      "bbc/cloud-varnish-test",
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episode-titles",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-github-webhooks",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-kinesis-lambda-consumer-test",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-remaining-availability-lambda",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/moment-relative"
+    ],
+    "^3": [
+      "bbc/bundle-builder",
+      "bbc/chaos-cache-evictor",
+      "bbc/cosmos-patch-notifier",
+      "bbc/generator-ibl-spec-project",
+      "bbc/http-transport",
+      "bbc/http-transport-callbacks",
+      "bbc/http-transport-request-collapse",
+      "bbc/http-transport-statsd",
+      "bbc/http-transport-xray",
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-cache-invalidator",
+      "bbc/ibl-credentials-handler",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-credibl-janitor",
+      "bbc/ibl-credibl-retrier",
+      "bbc/ibl-credibl-text-classifier",
+      "bbc/ibl-credibl-validator",
+      "bbc/ibl-credits-data-generator",
+      "bbc/ibl-credits-tracker",
+      "bbc/ibl-credits-validator",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-error-concat",
+      "bbc/ibl-event-list-transformer",
+      "bbc/ibl-fakeredis",
+      "bbc/ibl-grafana-alerts",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-image-url-builder",
+      "bbc/ibl-inspector",
+      "bbc/ibl-inspector-popularity-lambda",
+      "bbc/ibl-lexical-sort",
+      "bbc/ibl-list-poller",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-master-brands-converter",
+      "bbc/ibl-monitoring-queries",
+      "bbc/ibl-pagination-links",
+      "bbc/ibl-popularity-janitor",
+      "bbc/ibl-popularity-tracker",
+      "bbc/ibl-programme-builder",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-programmes-client",
+      "bbc/ibl-queue-stats",
+      "bbc/ibl-scoreboard-processor",
+      "bbc/ibl-set-route-name",
+      "bbc/ibl-sla-monitor",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-slices-client",
+      "bbc/ibl-stats",
+      "bbc/ibl-statsq",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-test-lambda",
+      "bbc/ibl-translate",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-variants-api",
+      "bbc/iplayer-tools",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-preview",
+      "bbc/iplayer-tools-ui",
+      "bbc/iplayer-tools-variants",
+      "bbc/nockout"
+    ],
+    "^4": [
+      "bbc/generator-ibl-typescript-lambda",
+      "bbc/generator-ibl-typescript-node-api",
+      "bbc/generator-typescript-library",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-ceych",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-data-integrity",
+      "bbc/ibl-grafana-alerting",
+      "bbc/ibl-patch-audit",
+      "bbc/ibl-pushibl",
+      "bbc/ibl-segmentation-client",
+      "bbc/ibl-snapshots",
+      "bbc/iplayer-appletv-snflk"
+    ]
+  },
+  "eslint-config-iplayer-jsx": {
+    "^4": [
+      "bbc/generator-iplayer-tools",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags"
+    ]
+  },
+  "eslint-config-iplayer-ts": {
+    "^2": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-coldstart",
+      "bbc/ibl-curator",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-dashboards",
+      "bbc/ibl-experiments-middleware",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-metadata-errors-client",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-persisted-queries-client",
+      "bbc/ibl-rest-client",
+      "bbc/ibl-swagger-utils",
+      "bbc/sqs-consumer"
+    ],
+    "^3": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-chassis-client",
+      "bbc/ibl-model-converter",
+      "bbc/ibl-passports-client",
+      "bbc/ibl-playback-interactions-queue-processor",
+      "bbc/ibl-playback-interactions-transformer",
+      "bbc/ibl-recommendations-client"
+    ],
+    "^4": [
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-icat-client",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-snapshots"
+    ]
+  },
+  "eslint-config-prettier": {
+    "^6": [
+      "bbc/iplayer-statsd"
+    ]
+  },
+  "eslint-plugin-graphql": {
+    "^3": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-persisted-queries-api"
+    ]
+  },
+  "eslint-plugin-jest": {
+    "^21": [
+      "bbc/generator-iplayer-tools",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags"
+    ]
+  },
+  "eslint-plugin-mocha": {
+    "^10": [
+      "bbc/ibl-audit",
+      "bbc/ibl-episodes-client",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-snapshots",
+      "bbc/speculate"
+    ],
+    "^2": [
+      "bbc/cloud-varnish-test",
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-episode-titles",
+      "bbc/ibl-github-webhooks",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-kinesis-lambda-consumer-test",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-remaining-availability-lambda",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/moment-relative"
+    ],
+    "^3": [
+      "bbc/ibl-hubot"
+    ],
+    "^4": [
+      "bbc/bundle-builder",
+      "bbc/chaos-cache-evictor",
+      "bbc/generator-ibl-node-api",
+      "bbc/generator-ibl-spec-project",
+      "bbc/generator-iplayer-tools",
+      "bbc/http-transport",
+      "bbc/http-transport-cache",
+      "bbc/http-transport-callbacks",
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-cache-invalidator",
+      "bbc/ibl-credentials-handler",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-credibl-janitor",
+      "bbc/ibl-credibl-retrier",
+      "bbc/ibl-credibl-text-classifier",
+      "bbc/ibl-credibl-validator",
+      "bbc/ibl-credits-data-generator",
+      "bbc/ibl-credits-tracker",
+      "bbc/ibl-credits-validator",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-data-integrity",
+      "bbc/ibl-documentation-generator",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-error-concat",
+      "bbc/ibl-fakeredis",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-grafana-alerts",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-image-url-builder",
+      "bbc/ibl-inspector",
+      "bbc/ibl-inspector-popularity-lambda",
+      "bbc/ibl-lexical-sort",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-list-poller",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-lists-client",
+      "bbc/ibl-master-brands-converter",
+      "bbc/ibl-monitoring-queries",
+      "bbc/ibl-pagination-links",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-popularity-janitor",
+      "bbc/ibl-popularity-tracker",
+      "bbc/ibl-programme-builder",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-programmes-client",
+      "bbc/ibl-scoreboard-processor",
+      "bbc/ibl-sla-monitor",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-slices-client",
+      "bbc/ibl-stats",
+      "bbc/ibl-statsq",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-test-lambda",
+      "bbc/ibl-translate",
+      "bbc/ibl-universal-search",
+      "bbc/ibl-upsert",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-variants-api",
+      "bbc/icat-document-client",
+      "bbc/iplayer-appletv-snflk",
+      "bbc/iplayer-tools",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-preview",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-ui",
+      "bbc/iplayer-tools-variants",
+      "bbc/nockout"
+    ],
+    "^5": [
+      "bbc/ibl-paginate",
+      "bbc/ibl-tag-client"
+    ],
+    "^7": [
+      "bbc/ibl-popularity-distributor",
+      "bbc/ibl-pushibl"
+    ],
+    "^8": [
+      "bbc/eslint-config-iplayer",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-master-brands-client",
+      "bbc/ibl-master-brands-fetcher",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-scoreboard-fetcher",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-video-sitemap-generator"
+    ],
+    "^9": [
+      "bbc/consumer-contracts",
+      "bbc/ibl-broadcasts-client",
+      "bbc/ibl-episode-builder",
+      "bbc/ibl-model-converter",
+      "bbc/ibl-nibl",
+      "bbc/ibl-nitro-client",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-redis",
+      "bbc/ibl-set-route-name",
+      "bbc/ibl-user-activity-client"
+    ]
+  },
+  "eslint-plugin-react": {
+    "7.27.0": [
+      "bbc/eslint-config-iplayer-jsx"
+    ]
+  },
+  "eslint-plugin-react-hooks": {
+    "^4": [
+      "bbc/eslint-config-iplayer-jsx"
+    ]
+  },
+  "execa": {
+    "^4": [
+      "bbc/ibl-deploy"
+    ]
+  },
+  "express": {
+    "^4": [
+      "bbc/bundle-builder",
+      "bbc/flashheart",
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-credits-data-generator",
+      "bbc/ibl-credits-tracker",
+      "bbc/ibl-credits-validator",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-github-watch",
+      "bbc/ibl-grafana-alerting",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-hubot",
+      "bbc/ibl-inspector",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-nibl",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-rest-client",
+      "bbc/ibl-search",
+      "bbc/ibl-server",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-smashibl-admin",
+      "bbc/ibl-swagger-utils",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-test-app",
+      "bbc/ibl-timer-middleware",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-variants-api",
+      "bbc/iplayer-tools",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-preview",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-ui",
+      "bbc/iplayer-tools-variants",
+      "bbc/nockout",
+      "bbc/repository-directory"
+    ]
+  },
+  "express-graphql": {
+    "^0.7": [
+      "bbc/ibl-graph-resolver"
+    ]
+  },
+  "express-openapi-validate": {
+    "^0.5": [
+      "bbc/ibl-swagger-utils"
+    ]
+  },
+  "express-session": {
+    "^1": [
+      "bbc/ibl-inspector",
+      "bbc/ibl-smashibl-admin"
+    ]
+  },
+  "fakeredis": {
+    "^0.3": [
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-master-brands-api"
+    ],
+    "^2": [
+      "bbc/ibl-fakeredis"
+    ]
+  },
+  "file-type": {
+    "^4": [
+      "bbc/ibl-credibl-gif-generator"
+    ]
+  },
+  "filehound": {
+    "^1": [
+      "bbc/consumer-contracts",
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-categoriser",
+      "bbc/ibl-credibl-text-classifier",
+      "bbc/ibl-credibl-validator",
+      "bbc/ibl-credits-data-generator",
+      "bbc/ibl-experiment-configurations",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-inspector",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-json-lint",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-search",
+      "bbc/ibl-server",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-test-lambda",
+      "bbc/ibl-translate",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-variants-api",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-variants",
+      "bbc/ops-doctor-cli"
+    ]
+  },
+  "flashheart": {
+    "^1": [
+      "bbc/ibl-open-source-stats"
+    ],
+    "^2": [
+      "bbc/bundle-builder",
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-validator",
+      "bbc/ibl-credits-data-generator",
+      "bbc/ibl-data-integrity",
+      "bbc/ibl-hubot",
+      "bbc/ibl-inspector-popularity-lambda",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-test-lambda",
+      "bbc/node-cosmos",
+      "bbc/repository-directory"
+    ]
+  },
+  "fluent-ffmpeg": {
+    "^2": [
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-validator",
+      "bbc/ibl-credits-data-generator"
+    ]
+  },
+  "font-awesome": {
+    "^4": [
+      "bbc/iplayer-tools-ui"
+    ]
+  },
+  "franc": {
+    "^4": [
+      "bbc/ibl-credibl-text-classifier"
+    ]
+  },
+  "fs": {
+    "0.0.2": [
+      "bbc/ibl-github-watch"
+    ]
+  },
+  "fs-extra": {
+    "^2": [
+      "bbc/ibl-credibl-detector"
+    ]
+  },
+  "fs-promise": {
+    "^0.5": [
+      "bbc/ibl-json-lint"
+    ]
+  },
+  "gifencoder": {
+    "^1": [
+      "bbc/ibl-credibl-gif-generator"
+    ]
+  },
+  "graphql": {
+    "^14": [
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-persisted-queries-api"
+    ],
+    "^15": [
+      "bbc/ibl-graph-explorer"
+    ]
+  },
+  "graphql-tools": {
+    "^4": [
+      "bbc/ibl-graph-resolver"
+    ]
+  },
+  "handlebars": {
+    "^4": [
+      "bbc/ibl-documentation-generator",
+      "bbc/speculate"
+    ]
+  },
+  "harmony-reflect": {
+    "^1": [
+      "bbc/ops-doctor"
+    ]
+  },
+  "hbs": {
+    "^4": [
+      "bbc/iplayer-tools-ui"
+    ]
+  },
+  "he": {
+    "^1": [
+      "bbc/ibl-isite-fetcher"
+    ]
+  },
+  "highlight.js": {
+    "^11": [
+      "bbc/ibl-documentation-generator"
+    ],
+    "^9": [
+      "bbc/iplayer-tools-curator"
+    ]
+  },
+  "hogan-express": {
+    "^0.5": [
+      "bbc/bundle-builder",
+      "bbc/ibl-credits-data-generator",
+      "bbc/ibl-credits-tracker",
+      "bbc/ibl-credits-validator",
+      "bbc/ibl-inspector",
+      "bbc/ibl-smashibl-admin",
+      "bbc/iplayer-tools-ui",
+      "bbc/repository-directory"
+    ]
+  },
+  "hogan.js": {
+    "^3": [
+      "bbc/ibl-video-sitemap-generator",
+      "bbc/iplayer-appletv-snflk"
+    ]
+  },
+  "html-linkify": {
+    "^1": [
+      "bbc/ibl-inspector"
+    ]
+  },
+  "https-agent": {
+    "^1": [
+      "bbc/ibl-inspector"
+    ]
+  },
+  "hubot": {
+    "^2": [
+      "bbc/ibl-hubot"
+    ]
+  },
+  "hubot-diagnostics": {
+    "0.0.1": [
+      "bbc/ibl-hubot"
+    ]
+  },
+  "hubot-github-repo-event-notifier": {
+    "^1": [
+      "bbc/ibl-hubot"
+    ]
+  },
+  "hubot-help": {
+    "^0.1": [
+      "bbc/ibl-hubot"
+    ]
+  },
+  "hubot-http-status": {
+    "^0.2": [
+      "bbc/ibl-hubot"
+    ]
+  },
+  "hubot-maps": {
+    "0.0.2": [
+      "bbc/ibl-hubot"
+    ]
+  },
+  "hubot-monzo-me": {
+    "^1": [
+      "bbc/ibl-hubot"
+    ]
+  },
+  "hubot-npm": {
+    "0.0.9": [
+      "bbc/ibl-hubot"
+    ]
+  },
+  "hubot-pugme": {
+    "^0.1": [
+      "bbc/ibl-hubot"
+    ]
+  },
+  "hubot-rules": {
+    "^0.1": [
+      "bbc/ibl-hubot"
+    ]
+  },
+  "hubot-seen": {
+    "^0.2": [
+      "bbc/ibl-hubot"
+    ]
+  },
+  "hubot-shipit": {
+    "^0.2": [
+      "bbc/ibl-hubot"
+    ]
+  },
+  "hubot-slack": {
+    "^4": [
+      "bbc/ibl-hubot"
+    ]
+  },
+  "hubot-standup-alarm": {
+    "0.0.7": [
+      "bbc/ibl-hubot"
+    ]
+  },
+  "hubot-thank-you": {
+    "0.0.3": [
+      "bbc/ibl-hubot"
+    ]
+  },
+  "husky": {
+    "^7": [
+      "bbc/consumer-contracts",
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-curator",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-icat-client",
+      "bbc/ibl-inspector",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-playback-interactions-queue-processor",
+      "bbc/ibl-playback-interactions-transformer",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-scoreboard-fetcher",
+      "bbc/ibl-search",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-stacks",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-tag-client",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-variants-api",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-variants"
+    ]
+  },
+  "icat-dependency-diagrams": {
+    "github:bbc/icat-dependency-diagrams#v0.0.1": [
+      "bbc/icat-document-client"
+    ]
+  },
+  "icat-schema": {
+    "github:bbc/icat-schema": [
+      "bbc/ibl-icat-client"
+    ]
+  },
+  "inquirer": {
+    "^0.12": [
+      "bbc/cosmos-cli"
+    ],
+    "^1": [
+      "bbc/ops-doctor-cli"
+    ]
+  },
+  "install": {
+    "^0.8": [
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-credibl-image-classifier-client"
+    ]
+  },
+  "ioredis": {
+    "^3": [
+      "bbc/ibl-episodes-api"
+    ],
+    "^4": [
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-ceych",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-rest-client",
+      "bbc/ibl-universal-search"
+    ]
+  },
+  "ioredis-mock": {
+    "^4": [
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-universal-search"
+    ]
+  },
+  "is-my-json-valid": {
+    "^2": [
+      "bbc/ibl-experiment-configurations",
+      "bbc/ibl-schema",
+      "bbc/ibl-variants-api"
+    ]
+  },
+  "istanbul": {
+    "^0.3": [
+      "bbc/ibl-categories",
+      "bbc/ibl-episode-notifier",
+      "bbc/ibl-error-concat",
+      "bbc/ibl-fakeredis",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-groups-client",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-pagination-links",
+      "bbc/ibl-programmes-client",
+      "bbc/ibl-queue-stats",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-set-route-name"
+    ],
+    "^0.4": [
+      "bbc/ceych",
+      "bbc/chaos-cache-evictor",
+      "bbc/consumer-contracts",
+      "bbc/http-transport-callbacks",
+      "bbc/http-transport-circuit-breaker",
+      "bbc/http-transport-rate-limiter",
+      "bbc/http-transport-to-error",
+      "bbc/ibl-analytics-client",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-clip-poller",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-credentials-handler",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-credibl-api-client",
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-credibl-image-classifier-client",
+      "bbc/ibl-credibl-image-classifier-spike",
+      "bbc/ibl-credibl-janitor",
+      "bbc/ibl-credibl-retrier",
+      "bbc/ibl-credibl-start-time-calculator",
+      "bbc/ibl-credibl-text-classifier",
+      "bbc/ibl-data-integrity",
+      "bbc/ibl-episode-titles",
+      "bbc/ibl-group-poller",
+      "bbc/ibl-hubot",
+      "bbc/ibl-image-url-builder",
+      "bbc/ibl-inspector",
+      "bbc/ibl-inspector-popularity-lambda",
+      "bbc/ibl-json-lint",
+      "bbc/ibl-lists-client",
+      "bbc/ibl-master-brands-blacklist",
+      "bbc/ibl-popularity-client",
+      "bbc/ibl-popularity-janitor",
+      "bbc/ibl-popularity-tracker",
+      "bbc/ibl-programme-classifier",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-receng-client",
+      "bbc/ibl-remaining-availability-lambda",
+      "bbc/ibl-remaining-availability-text",
+      "bbc/ibl-scoreboard-processor",
+      "bbc/ibl-scribl",
+      "bbc/ibl-segmentation-client",
+      "bbc/ibl-slices-client",
+      "bbc/ibl-statsq",
+      "bbc/ibl-tag-client",
+      "bbc/ibl-test-lambda",
+      "bbc/ibl-timer-middleware",
+      "bbc/ibl-timestamp-converter",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-variants-client",
+      "bbc/ibl-versions-builder",
+      "bbc/iplayer-appletv-snflk",
+      "bbc/moment-relative",
+      "bbc/ops-doctor",
+      "bbc/ops-doctor-cli",
+      "bbc/speculate"
+    ],
+    "^1": [
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-curator",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-experiments-middleware",
+      "bbc/ibl-grafana-graphs-example"
+    ]
+  },
+  "jest": {
+    "^23": [
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags"
+    ],
+    "^26": [
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-episode-hits-pipeline"
+    ],
+    "^27": [
+      "bbc/ibl-dashboards",
+      "bbc/ibl-icat-client",
+      "bbc/ibl-playback-interactions-queue-processor",
+      "bbc/ibl-playback-interactions-transformer",
+      "bbc/ibl-stacks"
+    ]
+  },
+  "joi": {
+    "^10": [
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-test-app",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-variants-api",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-variants"
+    ],
+    "^11": [
+      "bbc/ibl-lists-api"
+    ],
+    "^13": [
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-tag-api"
+    ],
+    "^14": [
+      "bbc/ibl-curator-api",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-user-activity",
+      "bbc/iplayer-tools-curator"
+    ],
+    "^17": [
+      "bbc/consumer-contracts",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-nibl",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-request-validator",
+      "bbc/ibl-search"
+    ],
+    "^6": [
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-programmes-api"
+    ],
+    "^8": [
+      "bbc/ibl-clips-api",
+      "bbc/repository-directory"
+    ],
+    "^9": [
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-isite-picker",
+      "bbc/ops-doctor-cli"
+    ]
+  },
+  "jquery": {
+    "^3": [
+      "bbc/iplayer-tools-ui"
+    ]
+  },
+  "js-yaml": {
+    "^3": [
+      "bbc/ibl-swagger-utils"
+    ]
+  },
+  "jscoverage": {
+    "^0.5": [
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-pushibl"
+    ]
+  },
+  "jsdoc": {
+    "^3": [
+      "bbc/flashheart",
+      "bbc/http-transport",
+      "bbc/http-transport-to-error",
+      "bbc/ibl-rest-client",
+      "bbc/ibl-slices-client"
+    ]
+  },
+  "jshint": {
+    "^2": [
+      "bbc/ibl-error-concat",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-groups-client",
+      "bbc/ibl-inspector",
+      "bbc/ibl-json-lint",
+      "bbc/ibl-lambda-deploy",
+      "bbc/ibl-master-brands-client",
+      "bbc/ibl-open-source-stats",
+      "bbc/ibl-request",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-server",
+      "bbc/ibl-set-route-name",
+      "bbc/node-cosmos"
+    ]
+  },
+  "jslint": {
+    "": [
+      "bbc/node-cosmos-v1"
+    ]
+  },
+  "json-lint": {
+    "^0.1": [
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-json-lint"
+    ]
+  },
+  "json-schema-to-typescript": {
+    "^10": [
+      "bbc/ibl-schema"
+    ]
+  },
+  "json-stable-stringify": {
+    "^1": [
+      "bbc/ibl-package-analyser"
+    ]
+  },
+  "jstat": {
+    "^1": [
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-inspector"
+    ]
+  },
+  "jwt-decode": {
+    "^3": [
+      "bbc/ibl-graph-explorer"
+    ]
+  },
+  "knex": {
+    "^0.11": [
+      "bbc/ibl-programmes-api"
+    ],
+    "^0.12": [
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-test-app"
+    ],
+    "^0.14": [
+      "bbc/ibl-tag-api"
+    ],
+    "^0.16": [
+      "bbc/ibl-analytics-api"
+    ],
+    "^0.19": [
+      "bbc/ibl-variants-api"
+    ],
+    "^0.20": [
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-slices-api"
+    ],
+    "^0.21": [
+      "bbc/ibl-episodes-api"
+    ],
+    "^1": [
+      "bbc/ibl-credibl-janitor",
+      "bbc/ibl-popularity-janitor"
+    ]
+  },
+  "knuth-shuffle-seeded": {
+    "^1": [
+      "bbc/ibl-bundles-api"
+    ]
+  },
+  "koa-compose": {
+    "^4": [
+      "bbc/http-transport"
+    ]
+  },
+  "lerp": {
+    "^1": [
+      "bbc/ibl-credibl-gif-generator"
+    ]
+  },
+  "levee": {
+    "^1": [
+      "bbc/http-transport-cache"
+    ]
+  },
+  "libxmljs": {
+    "^0.19": [
+      "bbc/ibl-universal-search"
+    ]
+  },
+  "lint-staged": {
+    "^11": [
+      "bbc/consumer-contracts",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-playback-interactions-transformer",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-stacks",
+      "bbc/ibl-tag-client"
+    ],
+    "^12": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-icat-client",
+      "bbc/ibl-inspector",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-scoreboard-fetcher",
+      "bbc/ibl-search",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-variants-api",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-variants"
+    ]
+  },
+  "listr": {
+    "^0.14": [
+      "bbc/ibl-deploy"
+    ]
+  },
+  "lodash": {
+    ">=4.17.21": [
+      "bbc/cosmos-cli"
+    ],
+    "^2": [
+      "bbc/ibl-pushibl"
+    ],
+    "^3": [
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episode-notifier",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-pagination-links",
+      "bbc/ibl-programme-builder",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-qwibl",
+      "bbc/ibl-scribl",
+      "bbc/ibl-smashibl-admin",
+      "bbc/node-cosmos"
+    ],
+    "^4": [
+      "bbc/bundle-builder",
+      "bbc/ceych",
+      "bbc/consumer-contracts",
+      "bbc/cosmos-rpm-overview",
+      "bbc/flashheart",
+      "bbc/http-transport",
+      "bbc/http-transport-cache",
+      "bbc/http-transport-callbacks",
+      "bbc/http-transport-request-collapse",
+      "bbc/http-transport-statsd",
+      "bbc/http-transport-to-error",
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-analytics-client",
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-categories",
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-categoriser",
+      "bbc/ibl-category-label",
+      "bbc/ibl-ceych",
+      "bbc/ibl-channels",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-clip-poller",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-coldstart",
+      "bbc/ibl-credentials-handler",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-credibl-api-client",
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-credibl-image-classifier-client",
+      "bbc/ibl-credibl-janitor",
+      "bbc/ibl-credibl-retrier",
+      "bbc/ibl-credibl-start-time-calculator",
+      "bbc/ibl-credibl-text-classifier",
+      "bbc/ibl-credibl-validator",
+      "bbc/ibl-credits-data-generator",
+      "bbc/ibl-credits-tracker",
+      "bbc/ibl-curator",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-dashboards",
+      "bbc/ibl-data-integrity",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-editorial-metadata-client",
+      "bbc/ibl-episode-builder",
+      "bbc/ibl-episode-titles",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-episodes-client",
+      "bbc/ibl-error-concat",
+      "bbc/ibl-experiments-middleware",
+      "bbc/ibl-github-webhooks",
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-graph-explorer",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-group-poller",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-groups-client",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-hubot",
+      "bbc/ibl-inspector",
+      "bbc/ibl-kinesis-lambda-consumer-test",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-lists-client",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-master-brands-blacklist",
+      "bbc/ibl-master-brands-fetcher",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-metadata-errors-client",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-model-converter",
+      "bbc/ibl-monitoring-queries",
+      "bbc/ibl-nibl",
+      "bbc/ibl-nitro-client",
+      "bbc/ibl-open-source-stats",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-package-analyser",
+      "bbc/ibl-paginate",
+      "bbc/ibl-patch-audit",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-persisted-queries-client",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-popularity-client",
+      "bbc/ibl-popularity-distributor",
+      "bbc/ibl-popularity-janitor",
+      "bbc/ibl-programme-classifier",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-programmes-client",
+      "bbc/ibl-promotions-client",
+      "bbc/ibl-promotions-poller",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-receng-client",
+      "bbc/ibl-recommendations-client",
+      "bbc/ibl-rest-client",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-scoreboard-processor",
+      "bbc/ibl-search",
+      "bbc/ibl-segmentation-client",
+      "bbc/ibl-server",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-statsq",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-universal-search",
+      "bbc/ibl-upsert",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-activity-client",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-variants-api",
+      "bbc/ibl-variants-client",
+      "bbc/ibl-versions-builder",
+      "bbc/ibl-video-sitemap-generator",
+      "bbc/ibl-weekly-summary",
+      "bbc/icat-document-client",
+      "bbc/iplayer-tools",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-ui",
+      "bbc/iplayer-tools-variants",
+      "bbc/iplayer-web-ibl-client",
+      "bbc/ops-doctor",
+      "bbc/ops-doctor-cli"
+    ]
+  },
+  "material-ui": {
+    "^0.20": [
+      "bbc/iplayer-tools-curator"
+    ]
+  },
+  "meow": {
+    "^7": [
+      "bbc/ibl-deploy"
+    ]
+  },
+  "merge": {
+    "^2": [
+      "bbc/ibl-documentation-generator"
+    ]
+  },
+  "metalsmith": {
+    "^2": [
+      "bbc/ibl-documentation-generator"
+    ]
+  },
+  "metalsmith-layouts": {
+    "^1": [
+      "bbc/ibl-documentation-generator"
+    ]
+  },
+  "metalsmith-markdown": {
+    "^1": [
+      "bbc/ibl-documentation-generator"
+    ]
+  },
+  "mime-types": {
+    "^2": [
+      "bbc/ibl-graph-documentation"
+    ]
+  },
+  "mkdirp": {
+    "^0.5": [
+      "bbc/generator-ibl-lambda-function",
+      "bbc/generator-ibl-node-api",
+      "bbc/generator-ibl-node-lib",
+      "bbc/generator-ibl-node-service",
+      "bbc/generator-ibl-spec-project",
+      "bbc/ibl-inspector",
+      "bbc/nockout"
+    ]
+  },
+  "mocha": {
+    "^2": [
+      "bbc/chaos-cache-evictor",
+      "bbc/cloud-varnish-test",
+      "bbc/http-transport-callbacks",
+      "bbc/ibl-analytics-client",
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-category-label",
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-clip-poller",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-credibl-api-client",
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-credibl-image-classifier-client",
+      "bbc/ibl-credibl-image-classifier-spike",
+      "bbc/ibl-credibl-janitor",
+      "bbc/ibl-credibl-retrier",
+      "bbc/ibl-credibl-start-time-calculator",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-data-integrity",
+      "bbc/ibl-episode-notifier",
+      "bbc/ibl-episode-titles",
+      "bbc/ibl-error-concat",
+      "bbc/ibl-event-list-transformer",
+      "bbc/ibl-experiments-middleware",
+      "bbc/ibl-fakeredis",
+      "bbc/ibl-grafana-alerts",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-hubot",
+      "bbc/ibl-image-url-builder",
+      "bbc/ibl-inspector-popularity-lambda",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-json-lint",
+      "bbc/ibl-lexical-sort",
+      "bbc/ibl-master-brands-blacklist",
+      "bbc/ibl-master-brands-converter",
+      "bbc/ibl-pagination-links",
+      "bbc/ibl-popularity-janitor",
+      "bbc/ibl-popularity-tracker",
+      "bbc/ibl-programme-builder",
+      "bbc/ibl-programmes-client",
+      "bbc/ibl-pushibl",
+      "bbc/ibl-queue-stats",
+      "bbc/ibl-qwibl",
+      "bbc/ibl-receng-client",
+      "bbc/ibl-remaining-availability-lambda",
+      "bbc/ibl-remaining-availability-text",
+      "bbc/ibl-scoreboard-processor",
+      "bbc/ibl-scribl",
+      "bbc/ibl-sla-monitor",
+      "bbc/ibl-slices-client",
+      "bbc/ibl-statsq",
+      "bbc/ibl-test-lambda",
+      "bbc/ibl-timer-middleware",
+      "bbc/ibl-timestamp-converter",
+      "bbc/ibl-translate",
+      "bbc/ibl-variants-client",
+      "bbc/ibl-versions-builder",
+      "bbc/node-cosmos",
+      "bbc/ops-doctor",
+      "bbc/ops-doctor-cli"
+    ],
+    "^3": [
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-test-app",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-preview",
+      "bbc/moment-relative",
+      "bbc/nockout"
+    ],
+    "^4": [
+      "bbc/iplayer-appletv-snflk"
+    ],
+    "^5": [
+      "bbc/flashheart",
+      "bbc/http-transport-circuit-breaker",
+      "bbc/http-transport-rate-limiter",
+      "bbc/http-transport-request-collapse",
+      "bbc/http-transport-statsd",
+      "bbc/http-transport-to-error",
+      "bbc/http-transport-xray",
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-cache-invalidator",
+      "bbc/ibl-credibl-text-classifier",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-grafana-alerting",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-metadata-errors-client",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-persisted-queries-client",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-user-activity",
+      "bbc/iplayer-tools",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-ui",
+      "bbc/iplayer-web-ibl-client",
+      "bbc/speculate"
+    ],
+    "^6": [
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-credentials-handler",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-group-poller",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-programme-classifier",
+      "bbc/ibl-upsert",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-variants-api"
+    ],
+    "^7": [
+      "bbc/http-transport",
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-swagger-utils",
+      "bbc/sqs-producer"
+    ],
+    "^8": [
+      "bbc/ceych",
+      "bbc/http-transport-cache",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-coldstart",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episode-builder",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-list-poller",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-master-brands-client",
+      "bbc/ibl-master-brands-fetcher",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-passports-client",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-popularity-distributor",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-rest-client",
+      "bbc/ibl-scoreboard-fetcher",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-universal-search",
+      "bbc/ibl-video-sitemap-generator",
+      "bbc/icat-document-client",
+      "bbc/iplayer-statsd",
+      "bbc/iplayer-tools-variants",
+      "bbc/sqs-consumer"
+    ],
+    "^9": [
+      "bbc/consumer-contracts",
+      "bbc/cosmos-cli",
+      "bbc/ibl-broadcasts-client",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-categories",
+      "bbc/ibl-categoriser",
+      "bbc/ibl-channels",
+      "bbc/ibl-chassis-client",
+      "bbc/ibl-clips-client",
+      "bbc/ibl-curator",
+      "bbc/ibl-editorial-metadata-client",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-episodes-client",
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-groups-client",
+      "bbc/ibl-inspector",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-lists-client",
+      "bbc/ibl-logger",
+      "bbc/ibl-model-converter",
+      "bbc/ibl-nibl",
+      "bbc/ibl-nitro-client",
+      "bbc/ibl-paginate",
+      "bbc/ibl-popularity-client",
+      "bbc/ibl-promotions-client",
+      "bbc/ibl-promotions-poller",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-recommendations-client",
+      "bbc/ibl-request-validator",
+      "bbc/ibl-schema",
+      "bbc/ibl-search",
+      "bbc/ibl-segmentation-client",
+      "bbc/ibl-server",
+      "bbc/ibl-set-route-name",
+      "bbc/ibl-tag-client",
+      "bbc/ibl-user-activity-client",
+      "bbc/node-cosmos-v1"
+    ]
+  },
+  "mocha-chai-jest-snapshot": {
+    "^1": [
+      "bbc/ibl-inspector"
+    ]
+  },
+  "moment": {
+    "2.24.0": [
+      "bbc/ibl-weekly-summary"
+    ],
+    "^2": [
+      "bbc/cosmos-cli",
+      "bbc/cosmos-patch-notifier",
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-categoriser",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-credibl-janitor",
+      "bbc/ibl-curator",
+      "bbc/ibl-data-integrity",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episode-builder",
+      "bbc/ibl-episode-hits-pipeline",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episode-notifier",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-hubot",
+      "bbc/ibl-inspector",
+      "bbc/ibl-kinesis-lambda-consumer-test",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-model-converter",
+      "bbc/ibl-monitoring-queries",
+      "bbc/ibl-nibl",
+      "bbc/ibl-popularity-janitor",
+      "bbc/ibl-popularity-tracker",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-remaining-availability-text",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-segmentation-client",
+      "bbc/ibl-sla-monitor",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-test-app",
+      "bbc/ibl-universal-search",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-versions-builder",
+      "bbc/ibl-video-sitemap-generator",
+      "bbc/moment-relative"
+    ]
+  },
+  "moment-duration-format": {
+    "^1": [
+      "bbc/ibl-inspector"
+    ]
+  },
+  "moment-range": {
+    "^1": [
+      "bbc/ibl-episode-builder"
+    ],
+    "^2": [
+      "bbc/ibl-remaining-availability-text"
+    ],
+    "~1": [
+      "bbc/ibl-episode-ingest"
+    ]
+  },
+  "moment-relative": {
+    "^1": [
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-nibl"
+    ]
+  },
+  "moment-timezone": {
+    "^0.3": [
+      "bbc/ibl-episode-builder",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-schedules-fetcher"
+    ],
+    "^0.4": [
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-inspector"
+    ],
+    "^0.5": [
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-remaining-availability-text",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-versions-builder"
+    ]
+  },
+  "monaco-editor": {
+    "^0.15": [
+      "bbc/iplayer-tools-curator"
+    ]
+  },
+  "monaco-editor-webpack-plugin": {
+    "^1": [
+      "bbc/iplayer-tools-curator"
+    ]
+  },
+  "monaco-languages": {
+    "^1": [
+      "bbc/iplayer-tools-curator"
+    ]
+  },
+  "morgan": {
+    "^1": [
+      "bbc/ibl-inspector",
+      "bbc/ibl-server"
+    ]
+  },
+  "mustache": {
+    "^2": [
+      "bbc/ibl-inspector",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-jenkins-generator",
+      "bbc/ibl-universal-search",
+      "bbc/nockout"
+    ]
+  },
+  "no-npm": {
+    "github:bbc/no-npm#semver:^2.0.0": [
+      "bbc/icat-document-client"
+    ]
+  },
+  "nock": {
+    "^0.47": [
+      "bbc/ibl-isite-fetcher"
+    ],
+    "^0.51": [
+      "bbc/ibl-pushibl"
+    ],
+    "^10": [
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-persisted-queries-client",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-slices-client",
+      "bbc/ibl-variants-api",
+      "bbc/iplayer-tools-curator"
+    ],
+    "^11": [
+      "bbc/http-transport",
+      "bbc/ibl-metadata-errors-client",
+      "bbc/iplayer-web-ibl-client"
+    ],
+    "^12": [
+      "bbc/ibl-editorial-metadata-client",
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-user-activity"
+    ],
+    "^13": [
+      "bbc/consumer-contracts",
+      "bbc/http-transport-cache",
+      "bbc/ibl-broadcasts-client",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-chassis-client",
+      "bbc/ibl-clips-client",
+      "bbc/ibl-curator",
+      "bbc/ibl-dashboards",
+      "bbc/ibl-episodes-client",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-groups-client",
+      "bbc/ibl-master-brands-client",
+      "bbc/ibl-nibl",
+      "bbc/ibl-nitro-client",
+      "bbc/ibl-passports-client",
+      "bbc/ibl-popularity-client",
+      "bbc/ibl-popularity-distributor",
+      "bbc/ibl-promotions-client",
+      "bbc/ibl-promotions-poller",
+      "bbc/ibl-rest-client",
+      "bbc/ibl-search",
+      "bbc/ibl-segmentation-client",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-user-activity-client",
+      "bbc/node-cosmos-v1"
+    ],
+    "^2": [
+      "bbc/ibl-episode-notifier",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-programmes-client"
+    ],
+    "^3": [
+      "bbc/ibl-scribl"
+    ],
+    "^7": [
+      "bbc/node-cosmos"
+    ],
+    "^8": [
+      "bbc/ibl-analytics-client",
+      "bbc/ibl-hubot",
+      "bbc/ibl-inspector",
+      "bbc/nockout"
+    ],
+    "^9": [
+      "bbc/flashheart",
+      "bbc/http-transport-callbacks",
+      "bbc/http-transport-request-collapse",
+      "bbc/http-transport-statsd",
+      "bbc/http-transport-to-error",
+      "bbc/http-transport-xray",
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-cache-invalidator",
+      "bbc/ibl-credibl-api-client",
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-image-classifier-client",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-lists-client",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-receng-client",
+      "bbc/ibl-sla-monitor",
+      "bbc/ibl-tag-client",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-variants-client",
+      "bbc/iplayer-tools-variants",
+      "bbc/ops-doctor"
+    ]
+  },
+  "node-config": {
+    "0.0.2": [
+      "bbc/ibl-smashibl-admin"
+    ]
+  },
+  "node-cosmos": {
+    "bbc/node-cosmos#v1.7.0": [
+      "bbc/generator-ibl-node-api"
+    ],
+    "github:bbc/node-cosmos": [
+      "bbc/ibl-hubot"
+    ],
+    "github:bbc/node-cosmos#v1.7.0": [
+      "bbc/generator-ibl-node-service",
+      "bbc/generator-ibl-typescript-node-api"
+    ]
+  },
+  "node-cosmos-v1": {
+    "git+ssh://git@github.com/bbc/node-cosmos-v1.git": [
+      "bbc/ibl-patch-audit"
+    ],
+    "git+ssh://git@github.com:bbc/node-cosmos-v1.git#1.13.0": [
+      "bbc/cosmos-cli"
+    ],
+    "github:bbc/node-cosmos-v1": [
+      "bbc/cosmos-rpm-overview"
+    ],
+    "github:bbc/node-cosmos-v1#1.3.0": [
+      "bbc/generator-ibl-typescript-lambda"
+    ]
+  },
+  "node-fetch": {
+    "2.6.6": [
+      "bbc/ibl-bundles-api"
+    ],
+    "^2": [
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-web-ibl-client"
+    ],
+    "^3": [
+      "bbc/ibl-playback-interactions-transformer"
+    ]
+  },
+  "node-jenkins": {
+    "github:hjerling/node-jenkins": [
+      "bbc/ibl-hubot"
+    ]
+  },
+  "node-sass": {
+    "^4": [
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-ui"
+    ]
+  },
+  "node-statsd": {
+    "^0.1": [
+      "bbc/ibl-open-source-stats",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-stats",
+      "bbc/ibl-statsq",
+      "bbc/iplayer-statsd"
+    ]
+  },
+  "nodemon": {
+    "^1": [
+      "bbc/bundle-builder",
+      "bbc/ibl-credits-tracker",
+      "bbc/ibl-credits-validator",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-inspector",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/iplayer-tools",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-preview",
+      "bbc/iplayer-tools-ui",
+      "bbc/iplayer-tools-variants",
+      "bbc/repository-directory"
+    ],
+    "^2": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-graph-resolver"
+    ]
+  },
+  "nodemon-webpack-plugin": {
+    "^4": [
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags"
+    ]
+  },
+  "npm": {
+    "^4": [
+      "bbc/ibl-credibl-gif-generator"
+    ]
+  },
+  "numeral": {
+    "^1": [
+      "bbc/ibl-inspector"
+    ]
+  },
+  "nyc": {
+    "^11": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-cache-invalidator",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-event-list-transformer",
+      "bbc/ibl-experiments-middleware",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-grafana-alerts",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-sla-monitor",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-translate"
+    ],
+    "^14": [
+      "bbc/flashheart",
+      "bbc/http-transport-statsd",
+      "bbc/ibl-coldstart",
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-metadata-errors-client",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-passports-client",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-persisted-queries-client",
+      "bbc/ibl-swagger-utils",
+      "bbc/ibl-variants-api"
+    ],
+    "^15": [
+      "bbc/http-transport",
+      "bbc/http-transport-cache",
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-broadcasts-client",
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-ceych",
+      "bbc/ibl-chassis-client",
+      "bbc/ibl-clips-client",
+      "bbc/ibl-curator",
+      "bbc/ibl-dashboards",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-editorial-metadata-client",
+      "bbc/ibl-episode-builder",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-episodes-client",
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-list-poller",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-master-brands-client",
+      "bbc/ibl-master-brands-fetcher",
+      "bbc/ibl-model-converter",
+      "bbc/ibl-nibl",
+      "bbc/ibl-nitro-client",
+      "bbc/ibl-paginate",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-popularity-distributor",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-promotions-client",
+      "bbc/ibl-promotions-poller",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-recommendations-client",
+      "bbc/ibl-request-validator",
+      "bbc/ibl-rest-client",
+      "bbc/ibl-scoreboard-fetcher",
+      "bbc/ibl-search",
+      "bbc/ibl-server",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-universal-search",
+      "bbc/ibl-upsert",
+      "bbc/ibl-user-activity-client",
+      "bbc/ibl-video-sitemap-generator",
+      "bbc/icat-document-client",
+      "bbc/sqs-consumer",
+      "bbc/sqs-producer"
+    ]
+  },
+  "octonode": {
+    "^0.10": [
+      "bbc/cosmos-cli"
+    ],
+    "^0.7": [
+      "bbc/ibl-github-webhooks",
+      "bbc/ibl-open-source-stats"
+    ],
+    "^0.9": [
+      "bbc/ibl-experiment-configurations",
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-package-analyser"
+    ]
+  },
+  "on-headers": {
+    "^1": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-inspector",
+      "bbc/ibl-server",
+      "bbc/ibl-test-app",
+      "bbc/ibl-timer-middleware",
+      "bbc/nockout"
+    ]
+  },
+  "optimist": {
+    "^0.6": [
+      "bbc/ibl-repo-badges"
+    ]
+  },
+  "p-event": {
+    "^4": [
+      "bbc/sqs-consumer"
+    ]
+  },
+  "path": {
+    "^0.12": [
+      "bbc/ibl-credibl-gif-generator"
+    ]
+  },
+  "pg": {
+    "^4": [
+      "bbc/ibl-programmes-api"
+    ],
+    "^6": [
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-test-app",
+      "bbc/ibl-variants-api"
+    ],
+    "^7": [
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-tag-api"
+    ],
+    "^8": [
+      "bbc/ibl-credibl-janitor",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-popularity-janitor"
+    ]
+  },
+  "ping": {
+    "^0.2": [
+      "bbc/ops-doctor"
+    ]
+  },
+  "popper.js": {
+    "^1": [
+      "bbc/iplayer-tools-ui"
+    ]
+  },
+  "prettier": {
+    "^1": [
+      "bbc/iplayer-statsd"
+    ],
+    "^2": [
+      "bbc/ibl-episode-hits-pipeline"
+    ]
+  },
+  "promptly": {
+    "^0.2": [
+      "bbc/cosmos-cli"
+    ]
+  },
+  "protobufjs": {
+    "^5": [
+      "bbc/ibl-kinesis-lambda-consumer-test"
+    ]
+  },
+  "ps-node": {
+    "^0.1": [
+      "bbc/ops-doctor"
+    ]
+  },
+  "pug": {
+    "^2": [
+      "bbc/iplayer-tools-preview"
+    ]
+  },
+  "qs": {
+    "^6": [
+      "bbc/http-transport",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-search",
+      "bbc/iplayer-tools-curator"
+    ]
+  },
+  "querystring": {
+    "^0.2": [
+      "bbc/ibl-receng-client"
+    ]
+  },
+  "quicktype": {
+    "^15": [
+      "bbc/ibl-model-converter"
+    ]
+  },
+  "raw-body": {
+    "^2": [
+      "bbc/ibl-credibl-gif-generator"
+    ]
+  },
+  "raw-loader": {
+    "^1": [
+      "bbc/iplayer-tools-curator"
+    ]
+  },
+  "react": {
+    "^16": [
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-ui"
+    ],
+    "^17": [
+      "bbc/ibl-graph-explorer"
+    ]
+  },
+  "react-dom": {
+    "^16": [
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-ui"
+    ],
+    "^17": [
+      "bbc/ibl-graph-explorer"
+    ]
+  },
+  "react-json-view": {
+    "^1": [
+      "bbc/ibl-graph-explorer"
+    ]
+  },
+  "react-markdown": {
+    "^4": [
+      "bbc/iplayer-tools-curator"
+    ]
+  },
+  "react-paginate": {
+    "^6": [
+      "bbc/iplayer-tools-curator"
+    ]
+  },
+  "react-router-dom": {
+    "^4": [
+      "bbc/iplayer-tools-tags"
+    ],
+    "^5": [
+      "bbc/iplayer-tools-curator"
+    ]
+  },
+  "react-scripts": {
+    "4.0.1": [
+      "bbc/ibl-graph-explorer"
+    ]
+  },
+  "recursive-readdir": {
+    "^2": [
+      "bbc/ibl-documentation-generator"
+    ]
+  },
+  "redis": {
+    "^0.12": [
+      "bbc/ibl-inspector",
+      "bbc/ibl-master-brands-api"
+    ],
+    "^2": [
+      "bbc/chaos-cache-evictor",
+      "bbc/ibl-credits-data-generator"
+    ],
+    "^3": [
+      "bbc/ibl-redis",
+      "bbc/ibl-rest-client"
+    ]
+  },
+  "request": {
+    "2.75.0": [
+      "bbc/ibl-schedules-fetcher"
+    ],
+    "2.88.0": [
+      "bbc/ibl-request"
+    ],
+    "^2": [
+      "bbc/consumer-contracts",
+      "bbc/flashheart",
+      "bbc/http-transport",
+      "bbc/http-transport-callbacks",
+      "bbc/ibl-cache-invalidator",
+      "bbc/ibl-curator-api",
+      "bbc/ibl-data-integrity",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-jenkins-generator",
+      "bbc/ibl-rest-client",
+      "bbc/ibl-smashibl-admin",
+      "bbc/ibl-test-lambda",
+      "bbc/iplayer-appletv-snflk",
+      "bbc/nockout",
+      "bbc/node-cosmos",
+      "bbc/ops-doctor"
+    ]
+  },
+  "request-promise": {
+    "^4": [
+      "bbc/cosmos-patch-notifier"
+    ]
+  },
+  "request-promise-native": {
+    "^1": [
+      "bbc/ibl-cache-invalidator",
+      "bbc/ibl-feature-tests"
+    ]
+  },
+  "retry": {
+    "^0.6": [
+      "bbc/ibl-schedules-fetcher"
+    ]
+  },
+  "rimraf": {
+    "^2": [
+      "bbc/speculate"
+    ]
+  },
+  "rxjs": {
+    "^6": [
+      "bbc/ibl-deploy"
+    ]
+  },
+  "s3-session-manager": {
+    "0.0.3": [
+      "bbc/ibl-programme-ingest"
+    ],
+    "0.1.0": [
+      "bbc/icat-document-client"
+    ]
+  },
+  "selectn": {
+    "^0.9": [
+      "bbc/ibl-inspector"
+    ]
+  },
+  "semver": {
+    "^6": [
+      "bbc/ibl-package-analyser"
+    ]
+  },
+  "serve-favicon": {
+    "^2": [
+      "bbc/ibl-inspector"
+    ]
+  },
+  "shelljs": {
+    "^0.8": [
+      "bbc/cosmos-cli"
+    ]
+  },
+  "shields-badge-url-custom": {
+    "^1": [
+      "bbc/ibl-repo-badges"
+    ]
+  },
+  "simple-rate-limiter": {
+    "^0.2": [
+      "bbc/http-transport-rate-limiter",
+      "bbc/http-transport-rate-limiter"
+    ]
+  },
+  "sinon": {
+    "^1": [
+      "bbc/chaos-cache-evictor",
+      "bbc/http-transport",
+      "bbc/http-transport-to-error",
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-clip-poller",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-data-integrity",
+      "bbc/ibl-episode-builder",
+      "bbc/ibl-episode-notifier",
+      "bbc/ibl-fakeredis",
+      "bbc/ibl-grafana-alerts",
+      "bbc/ibl-hubot",
+      "bbc/ibl-inspector-popularity-lambda",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-nitro-client",
+      "bbc/ibl-popularity-janitor",
+      "bbc/ibl-programme-builder",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-programmes-client",
+      "bbc/ibl-promotions-poller",
+      "bbc/ibl-queue-stats",
+      "bbc/ibl-qwibl",
+      "bbc/ibl-remaining-availability-lambda",
+      "bbc/ibl-scoreboard-processor",
+      "bbc/ibl-scribl",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-test-lambda",
+      "bbc/ibl-versions-builder",
+      "bbc/iplayer-tools-variants",
+      "bbc/nockout",
+      "bbc/ops-doctor",
+      "bbc/ops-doctor-cli"
+    ],
+    "^11": [
+      "bbc/consumer-contracts",
+      "bbc/ibl-categories",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-nibl",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-request-validator",
+      "bbc/ibl-user-activity-client"
+    ],
+    "^12": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-chassis-client",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-recommendations-client",
+      "bbc/ibl-search",
+      "bbc/ibl-server"
+    ],
+    "^13": [
+      "bbc/ibl-credibl-janitor",
+      "bbc/ibl-credibl-retrier",
+      "bbc/ibl-episodes-client",
+      "bbc/ibl-logger"
+    ],
+    "^2": [
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-experiments-middleware",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-model-converter",
+      "bbc/ibl-popularity-tracker",
+      "bbc/ibl-test-app",
+      "bbc/ibl-timer-middleware",
+      "bbc/ibl-user-play-writer",
+      "bbc/iplayer-tools-credits"
+    ],
+    "^4": [
+      "bbc/http-transport-xray",
+      "bbc/ibl-credibl-text-classifier",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-list-poller",
+      "bbc/ibl-lists-client",
+      "bbc/ibl-receng-client",
+      "bbc/ibl-sla-monitor",
+      "bbc/ibl-translate",
+      "bbc/iplayer-appletv-snflk",
+      "bbc/speculate"
+    ],
+    "^5": [
+      "bbc/ibl-curator-api",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-tag-client"
+    ],
+    "^6": [
+      "bbc/ibl-cache-invalidator",
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-grafana-alerting",
+      "bbc/ibl-inspector",
+      "bbc/ibl-paginate",
+      "bbc/ibl-schedules-fetcher"
+    ],
+    "^7": [
+      "bbc/flashheart",
+      "bbc/http-transport-rate-limiter",
+      "bbc/http-transport-statsd",
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-coldstart",
+      "bbc/ibl-credentials-handler",
+      "bbc/ibl-curator",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-event-list-transformer",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-group-poller",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-metadata-errors-client",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-passports-client",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-persisted-queries-client",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-rest-client",
+      "bbc/ibl-swagger-utils",
+      "bbc/ibl-variants-api",
+      "bbc/icat-document-client",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-web-ibl-client"
+    ],
+    "^9": [
+      "bbc/ceych",
+      "bbc/http-transport-cache",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-categories-scoreboard-processor",
+      "bbc/ibl-channels-scoreboard-processor",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-editorial-metadata-client",
+      "bbc/ibl-graph-fallbacks-fetcher",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-master-brands-fetcher",
+      "bbc/ibl-overall-programmes-scoreboard-processor",
+      "bbc/ibl-overall-scoreboard-processor",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-popularity-distributor",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-pushibl",
+      "bbc/ibl-scoreboard-fetcher",
+      "bbc/ibl-statsq",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-universal-search",
+      "bbc/ibl-upsert",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-video-sitemap-generator",
+      "bbc/iplayer-statsd",
+      "bbc/iplayer-tools-ui",
+      "bbc/sqs-consumer",
+      "bbc/sqs-producer"
+    ]
+  },
+  "slugify": {
+    "^1": [
+      "bbc/ibl-dashboards",
+      "bbc/ibl-grafana-graphs"
+    ]
+  },
+  "smart-deep-sort": {
+    "^1": [
+      "bbc/ibl-model-converter"
+    ]
+  },
+  "source-map-support": {
+    "^0.5": [
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-episode-hits-pipeline",
+      "bbc/ibl-playback-interactions-transformer",
+      "bbc/ibl-stacks"
+    ]
+  },
+  "speculate": {
+    "^1": [
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-clip-poller",
+      "bbc/ibl-clips-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episode-notifier",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-grafana-alerting",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-group-poller",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-hubot",
+      "bbc/ibl-inspector",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-master-brands-api",
+      "bbc/ibl-nibl",
+      "bbc/ibl-popularity-api-v2",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programmes-api",
+      "bbc/ibl-promotions-poller",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-smashibl-admin",
+      "bbc/ibl-universal-search",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer",
+      "bbc/ibl-variants-api",
+      "bbc/iplayer-tools",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-preview",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-variants",
+      "bbc/repository-directory"
+    ],
+    "^2": [
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-search"
+    ],
+    "^3": [
+      "bbc/ibl-group-episodes-fetcher"
+    ]
+  },
+  "sqs-consumer": {
+    "^2": [
+      "bbc/ibl-episode-notifier",
+      "bbc/ibl-isite-fetcher"
+    ],
+    "^3": [
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-gif-generator",
+      "bbc/ibl-group-fetcher",
+      "bbc/ibl-programme-ingest"
+    ],
+    "^5": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-group-episodes-fetcher",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-tag-extractor-v2"
+    ]
+  },
+  "sqs-producer": {
+    "^1": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-clip-poller",
+      "bbc/ibl-credibl-retrier",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-event-list-transformer",
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/ibl-group-poller",
+      "bbc/ibl-inspector",
+      "bbc/ibl-list-poller",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-promotions-poller",
+      "bbc/ibl-qwibl",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-tag-extractor-v2"
+    ],
+    "^2": [
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-passport-gateway"
+    ]
+  },
+  "stat-mode": {
+    "^1": [
+      "bbc/ibl-documentation-generator"
+    ]
+  },
+  "striptags": {
+    "^2": [
+      "bbc/ibl-inspector"
+    ]
+  },
+  "style-loader": {
+    "^0.22": [
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags"
+    ]
+  },
+  "supertest": {
+    "^0.15": [
+      "bbc/ibl-analytics-api",
+      "bbc/ibl-credibl-api",
+      "bbc/ibl-groups-api",
+      "bbc/ibl-isite-picker",
+      "bbc/ibl-programmes-api"
+    ],
+    "^1": [
+      "bbc/cloud-varnish-test",
+      "bbc/ibl-broadcasts-api",
+      "bbc/ibl-highlights-api",
+      "bbc/ibl-hubot",
+      "bbc/ibl-master-brands-api"
+    ],
+    "^2": [
+      "bbc/nockout"
+    ],
+    "^3": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-grafana-alerting",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-list-fetcher",
+      "bbc/ibl-lists-api",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-nibl",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-slices-api",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-test-app",
+      "bbc/ibl-timer-middleware",
+      "bbc/ibl-user-activity",
+      "bbc/ibl-user-play-writer",
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags",
+      "bbc/iplayer-tools-ui",
+      "bbc/iplayer-tools-variants"
+    ],
+    "^4": [
+      "bbc/ibl-clips-api",
+      "bbc/ibl-editorial-metadata-api",
+      "bbc/ibl-swagger-utils",
+      "bbc/ibl-variants-api"
+    ],
+    "^5": [
+      "bbc/ibl-curator-api",
+      "bbc/ibl-popularity-api-v2"
+    ],
+    "^6": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-episodes-api",
+      "bbc/ibl-inspector",
+      "bbc/ibl-promotions-service",
+      "bbc/ibl-search",
+      "bbc/ibl-server"
+    ]
+  },
+  "swagger-jsdoc": {
+    "^4": [
+      "bbc/ibl-editorial-metadata-api"
+    ]
+  },
+  "swagger-ui-express": {
+    "^4": [
+      "bbc/ibl-swagger-utils"
+    ]
+  },
+  "tar-fs": {
+    "^1": [
+      "bbc/speculate"
+    ]
+  },
+  "traverse": {
+    "^0.6": [
+      "bbc/ibl-clip-fetcher",
+      "bbc/ibl-episode-builder",
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-programme-builder",
+      "bbc/ibl-programme-classifier",
+      "bbc/ibl-programme-ingest",
+      "bbc/ibl-programme-slices-fetcher",
+      "bbc/ibl-tag-extractor-v2"
+    ]
+  },
+  "ts-jest": {
+    "^26": [
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-episode-hits-pipeline"
+    ],
+    "^27": [
+      "bbc/ibl-dashboards",
+      "bbc/ibl-icat-client",
+      "bbc/ibl-playback-interactions-queue-processor",
+      "bbc/ibl-playback-interactions-transformer",
+      "bbc/ibl-stacks"
+    ]
+  },
+  "ts-node": {
+    "^10": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-chassis-client",
+      "bbc/ibl-icat-client",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-playback-interactions-queue-processor",
+      "bbc/ibl-playback-interactions-transformer",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-recommendations-client",
+      "bbc/ibl-snapshots",
+      "bbc/ibl-stacks"
+    ],
+    "^3": [
+      "bbc/flashheart",
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-curator",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-experiments-middleware",
+      "bbc/ibl-grafana-graphs-example"
+    ],
+    "^7": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-dashboards",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-metadata-errors-client",
+      "bbc/ibl-passports-client",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-persisted-queries-client",
+      "bbc/ibl-swagger-utils"
+    ],
+    "^8": [
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-model-converter",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-rest-client",
+      "bbc/icat-document-client",
+      "bbc/sqs-consumer",
+      "bbc/sqs-producer"
+    ],
+    "^9": [
+      "bbc/ibl-catalogue-coldstart",
+      "bbc/ibl-coldstart",
+      "bbc/ibl-episode-hits-pipeline"
+    ]
+  },
+  "tslint": {
+    "^5": [
+      "bbc/flashheart",
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/ibl-graph-resolver"
+    ],
+    "^6": [
+      "bbc/sqs-producer"
+    ]
+  },
+  "tslint-config-airbnb": {
+    "^5": [
+      "bbc/flashheart",
+      "bbc/ibl-graph-resolver",
+      "bbc/sqs-consumer",
+      "bbc/sqs-producer"
+    ]
+  },
+  "tslint-microsoft-contrib": {
+    "^5": [
+      "bbc/flashheart",
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/ibl-graph-resolver"
+    ],
+    "^6": [
+      "bbc/sqs-consumer",
+      "bbc/sqs-producer"
+    ]
+  },
+  "twilio": {
+    "^3": [
+      "bbc/ibl-grafana-alerting"
+    ]
+  },
+  "typescript": {
+    "^2": [
+      "bbc/flashheart",
+      "bbc/ibl-bundles-client",
+      "bbc/ibl-curator-client",
+      "bbc/ibl-experiments-middleware",
+      "bbc/ibl-grafana-graphs-example",
+      "bbc/ibl-graph-resolver",
+      "bbc/ibl-types"
+    ],
+    "^3": [
+      "bbc/ibl-appw-gateway",
+      "bbc/ibl-coldstart",
+      "bbc/ibl-curator",
+      "bbc/ibl-episode-hits-pipeline",
+      "bbc/ibl-feature-tests",
+      "bbc/ibl-grafana-graphs",
+      "bbc/ibl-graph-fallbacks-handler",
+      "bbc/ibl-graph-fallbacks-poller",
+      "bbc/ibl-metadata-errors-api",
+      "bbc/ibl-metadata-errors-client",
+      "bbc/ibl-metadata-errors-ingest",
+      "bbc/ibl-model-converter",
+      "bbc/ibl-persisted-queries",
+      "bbc/ibl-persisted-queries-api",
+      "bbc/ibl-persisted-queries-client",
+      "bbc/ibl-swagger-utils",
+      "bbc/ibl-weekly-summary",
+      "bbc/icat-document-client",
+      "bbc/sqs-consumer",
+      "bbc/sqs-producer"
+    ],
+    "^4": [
+      "bbc/ibl-bundles-api",
+      "bbc/ibl-chassis-client",
+      "bbc/ibl-dashboards",
+      "bbc/ibl-icat-client",
+      "bbc/ibl-missing-appw-events",
+      "bbc/ibl-passport-gateway",
+      "bbc/ibl-passports-client",
+      "bbc/ibl-playback-interactions-queue-processor",
+      "bbc/ibl-programme-slice-queue-janitor",
+      "bbc/ibl-recommendations-client",
+      "bbc/ibl-rest-client",
+      "bbc/ibl-snapshots"
+    ],
+    "~3.9.7": [
+      "bbc/ibl-catalogue-coldstart"
+    ],
+    "~4.4.2": [
+      "bbc/ibl-playback-interactions-transformer"
+    ],
+    "~4.4.4": [
+      "bbc/ibl-stacks"
+    ]
+  },
+  "uuid": {
+    "^2": [
+      "bbc/cloud-varnish-test",
+      "bbc/ibl-inspector",
+      "bbc/ibl-promotions-poller"
+    ],
+    "^3": [
+      "bbc/ibl-credibl-retrier",
+      "bbc/ibl-event-list-transformer",
+      "bbc/ibl-list-poller",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-tag-api",
+      "bbc/ibl-user-activity"
+    ],
+    "^8": [
+      "bbc/ibl-recommendations-client",
+      "bbc/ibl-scoreboard-fetcher"
+    ]
+  },
+  "web-vitals": {
+    "^0.2": [
+      "bbc/ibl-graph-explorer"
+    ]
+  },
+  "webpack": {
+    "^4": [
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags"
+    ]
+  },
+  "webpack-cli": {
+    "^3": [
+      "bbc/iplayer-tools-credits",
+      "bbc/iplayer-tools-curator",
+      "bbc/iplayer-tools-tags"
+    ]
+  },
+  "winston": {
+    "": [
+      "bbc/cosmos-cli"
+    ],
+    "^0.8": [
+      "bbc/ibl-programme-ingest"
+    ],
+    "^2": [
+      "bbc/repository-directory"
+    ],
+    "^3": [
+      "bbc/ibl-audit",
+      "bbc/ibl-logger",
+      "bbc/ibl-user-play-writer"
+    ]
+  },
+  "wreck": {
+    "^12": [
+      "bbc/http-transport-cache"
+    ]
+  },
+  "xml2js": {
+    "^0.4": [
+      "bbc/ibl-credibl-detector",
+      "bbc/ibl-credibl-validator",
+      "bbc/ibl-inspector",
+      "bbc/ibl-isite-fetcher",
+      "bbc/ibl-schedules-fetcher",
+      "bbc/ibl-tag-extractor-v2",
+      "bbc/ibl-video-sitemap-generator"
+    ]
+  },
+  "xmldom": {
+    "^0.1": [
+      "bbc/ibl-episode-ingest",
+      "bbc/ibl-isite-fetcher"
+    ]
+  },
+  "xpath": {
+    "0.0.27": [
+      "bbc/ibl-episode-ingest"
+    ],
+    "0.0.7": [
+      "bbc/ibl-isite-fetcher"
+    ]
+  },
+  "yeoman-generator": {
+    "^0.22": [
+      "bbc/generator-ibl-lambda-function",
+      "bbc/generator-ibl-node-api",
+      "bbc/generator-ibl-node-lib",
+      "bbc/generator-ibl-spec-project",
+      "bbc/generator-iplayer-tools"
+    ],
+    "^4": [
+      "bbc/generator-ibl-node-service",
+      "bbc/generator-ibl-typescript-lambda",
+      "bbc/generator-ibl-typescript-node-api",
+      "bbc/generator-typescript-library"
+    ]
+  },
+  "yosay": {
+    "^1": [
+      "bbc/generator-ibl-lambda-function",
+      "bbc/generator-ibl-node-api",
+      "bbc/generator-ibl-node-lib",
+      "bbc/generator-ibl-spec-project",
+      "bbc/generator-iplayer-tools"
+    ],
+    "^2": [
+      "bbc/generator-ibl-node-service",
+      "bbc/generator-ibl-typescript-lambda",
+      "bbc/generator-ibl-typescript-node-api",
+      "bbc/generator-typescript-library"
+    ]
+  }
+}
