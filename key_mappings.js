@@ -477,21 +477,49 @@ const mapping = {
       "Tgs=\n" +
       "=4/Ap\n" +
       "-----END PGP PUBLIC KEY BLOCK-----",
-  "https://repository.api.bbci.co.uk/ibl-sysadmin/revisions/head": null, // Same key as iplayer-build-tools ?
-  "https://repository.api.bbci.co.uk/ibl-apache-el7/revisions/head": null, // not signed by Jenkins
-  "https://repository.api.bbci.co.uk/ibl-logrotate-el7/revisions/head": null, //  not signed by Jenkins
+      "https://repository.api.bbci.co.uk/tvr-nginx/revisions/head": "\n" +
+      "-----BEGIN PGP PUBLIC KEY BLOCK-----\n" +
+      "Version: GnuPG v2.0.22 (GNU/Linux)\n" +
+      "\n" +
+      "mQINBF3C1EgBEACePDPgXUpla0pPBiwBCsw3F9MWWhAZEBnUoHgNZefbiEdKkJqPiNa+fjEahlk1\n" +
+      "zkneE6ajuOkqiXqszjTbVJTAraefUwjEZom3ZOf45HPMPDEE2Brgkznpbiq+zQCkqedqjnnyVv+e\n" +
+      "MyTDGLryhZpo0y3lORTkR/5IkpiN4JLqBLMipJ+KgIULsifwkv8gtJapoGZTUI/ch3zVRkyUw2U1\n" +
+      "P+tgtuNszSqCac7ir0bVU9s0DJhr2WyB9TiVIZXayf6/wGMzF+CxOOnY9pcvykMcvCT6+neSG8AN\n" +
+      "EC9vNkO3Spv+etuVU+cZDOCtG+OqdU47iT8zuLotMTO8TiMBIrK8kTIc9/eBJazCssKbQUffDKhU\n" +
+      "SIaqwyNrLVw9eq6VBKDLAUiDNMtCib0BPMCUlJKDbpU/YOinp28UaeHPetyns9+N0182gKb9Po9x\n" +
+      "7EzIFdY1vKzpRtbW9n9ZYXKDbFVG/q3nGPj6eZ35hTSDQZKFawSbBJE63wdwXSp7+sZPbzWblbgZ\n" +
+      "B7y6QucBlcAkwisWDs069owJV2/yI5qL+1MDzX52fHS6SNcL5y4zRdqmkbijm0KZCDSvr8cG0bZd\n" +
+      "wpA6RJwWaWD7D09v8VLXYh9YkZOAC6dYfIXpkiCPqqixPENHwOb/oFYyEi5SOI12UyWxqiilDvlv\n" +
+      "CBcMLKaGswScewARAQABtEZqZW5raW5zLmlwbGF5ZXIudGVzdC50b29scy5iYmMuY28udWsgPGlw\n" +
+      "bGF5ZXJyd3RlYW1wbGF5YmFja0BiYmMuY28udWs+iQI2BBMBAgAgBQJdwtRIAhsvBAsJCAcFFQgJ\n" +
+      "CgsFFgIDAQACHgECF4AACgkQi29VgprUWIVB/Q//UQvkj/dCj7dOrvmOdFO8zXAVk1M8dOqWgaS9\n" +
+      "O2fD15Faoq86+PD2jTRiclutsLKQsk4LbPypGEOSLzQmv9Y6JPfSaVafNzPkkoctQzJ34WgFxk1q\n" +
+      "SMxMcpjUOh1DmbkGAwTlQwRE5/gDbEIi/qzH53MeWTmsC9+zLO6v2R4pTzSO2oR53EbjWuB8akHr\n" +
+      "W13HPprWd2ylYV4U6X3mfedPsIzNhrIPcyY+mQ6kC3+j550ZcyTTBmbM0t/8dXIHBMtdurtxiIVf\n" +
+      "NYpCzBVaHAPZRpHeHIaIQRKhf72YR6q8Nal+ym4to34YMSeGwoWFIJfzyj7b+Sp7eXcr5hdl8iZZ\n" +
+      "BW/cBNIm3pfUsGYETHbMIFFOJiOl41kIDJnclLqC5SlfUL5bzdPqI+E6pBh1YHs2dyT2zYyw5i9n\n" +
+      "YJjYna6E++TJVQXON6z4tvENuMGsk33mij9OcVI/wiG8B4IUnl/VZOEk3wTjEYHn156IHZXPupSn\n" +
+      "/W1b6nTq171Fppa9579kvnct2HEVsFlzXcCkkHL6/M/xg60fgjkAieN07bKsZyobWXtsb/5F13J6\n" +
+      "aDFHD+SsiCo9hE67c/Yn1KwjQULY/HdmpD8i6dQPUSFQtZ/oDUXNT6K5iMGJzKxY4z8PdzJ+q/Y3\n" +
+      "xL7x0Hw6swbIBmH2pDj+z55KI6L3ZuDcYgoU8Dg=\n" +
+      "=uyZR\n" +
+      "-----END PGP PUBLIC KEY BLOCK-----",
+  "https://repository.api.bbci.co.uk/ibl-sysadmin/revisions/head": null,        // Same key as iplayer-build-tools ?
+  "https://repository.api.bbci.co.uk/ibl-collectibl-el7/revisions/head": null,  // Same key as iplayer-build-tools ?
+  "https://repository.api.bbci.co.uk/ibl-apache-el7/revisions/head": null,      // not signed by Jenkins
+  "https://repository.api.bbci.co.uk/ibl-logrotate-el7/revisions/head": null,   // not signed by Jenkins
+  "https://repository.api.bbci.co.uk/ibl-audit-el7/revisions/head": null,       // not signed by Jenkins
+  "https://repository.api.bbci.co.uk/ibl-canvas-el7/revisions/head": null,      // not signed by Jenkins
+  "https://repository.api.bbci.co.uk/cloud-varnish/revisions/head": null,       // not signed by Jenkins
   "https://repository.api.bbci.co.uk/ibl-certificate-checker-el7/revisions/head": null, // Not in Jenkins? Job not migrated?
-  "https://repository.api.bbci.co.uk/ibl-collectibl-el7/revisions/head": null, // Same key as iplayer-build-tools ?
-  "https://repository.api.bbci.co.uk/ibl-audit-el7/revisions/head": null,//  not signed by Jenkins
-  "https://repository.api.bbci.co.uk/ibl-canvas-el7/revisions/head": null,//  not signed by Jenkins
-  "https://repository.api.bbci.co.uk/cloud-varnish/revisions/head": null, //  not signed by Jenkins
   "https://repository.api.bbci.co.uk/connected-tv/revisions/head": null,
-  "https://repository.api.bbci.co.uk/tvr-nginx/revisions/head": null,
-  "https://repository.api.bbci.co.uk/api-management-el7/revisions/head": null,
-  "https://repository.api.bbci.co.uk/siege/revisions/head": null,
-  "https://repository.api.bbci.co.uk/wrk2/revisions/head": null,
-  "https://repository.api.bbci.co.uk/cosmos-lib/revisions/head": null,
-  "https://repository.api.bbci.co.uk/ffmpeg-static-el7-rpm/revisions/head": null,
-  "https://repository.api.bbci.co.uk/broadcast-aws-xray-daemon/revisions/head": null,
+
+  "https://repository.api.bbci.co.uk/siege/revisions/head": null, // ibl owned
+  "https://repository.api.bbci.co.uk/wrk2/revisions/head": null, // https://github.com/bbc/wrk2-rpm
+  "https://repository.api.bbci.co.uk/ffmpeg-static-el7-rpm/revisions/head": null,  // ibl owned
+  
+  "https://repository.api.bbci.co.uk/broadcast-aws-xray-daemon/revisions/head": null, // not ibl owned
+  "https://repository.api.bbci.co.uk/api-management-el7/revisions/head": null, // not signed
+  "https://repository.api.bbci.co.uk/cosmos-lib/revisions/head": null,// not ibl owned
 }
 
