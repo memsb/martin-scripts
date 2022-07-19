@@ -1,4 +1,4 @@
-const mapping = {
+module.exports = {
   "https://repository.api.bbci.co.uk/cloud-httpd-conf-el7/revisions/stable": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n" +
     "Version: GnuPG v2.0.14 (GNU/Linux)\n" +
     "\n" +
