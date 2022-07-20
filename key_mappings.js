@@ -184,36 +184,30 @@ module.exports = {
     "DimXEB7pEzHyRguWwLR2K01KS0aNl+0L\n" +
     "=ZDwz\n" +
     "-----END PGP PUBLIC KEY BLOCK-----\n",
-
   "https://rpm.nodesource.com/pub_14.x/el/7/x86_64": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n" +
     "Version: GnuPG v1\n" +
     "\n" +
-    "mQINBFcsvdgBEADAskz2a6i3R8oO/BRbmtQaRBXb+nDRk05jyUCzFascsW/BRYwI\n" +
-    "LPHdparAdw/cbvhN8QXgnvZM1DLCsrq4eFA9EEKcZfjoooxGox6nxU12yLxLUTzq\n" +
-    "1R5SkaArpiJ8CwO3j6lWii/0Z8uJtR8sKXxFLjOiVxfSgbnsoXRmY1lRgaFRicXO\n" +
-    "uh+BUN8I8WAUA4KsMW+2xpgA99LcuoYBQAjVwVELY1Pi4duE0QVdeFF63yGL7ieF\n" +
-    "zpFD8T5nLPbuAceVaLPD50iY24o/rwLzsw8tWF+BQQooD1zyfHKCLoyFxjyysM+q\n" +
-    "fdq8L6IrB1OtNCWQAB7VZU5Fx6jndCN42Q0BHK5LKos8dwXyzVAW3ex763Qb1O9f\n" +
-    "6EW4vwnpCK696zW0SVfvcklt+zTG0hDZCAr7KovYqMOUqk35tZa+K6IjMv7GBIs3\n" +
-    "lUPFpvPV7qzD+8hxXIYfVllEB2Q5nyh3IkbKtipFc59KOmbvhV3pyYsw1OOblNhz\n" +
-    "D8VZYm3J042UCF6pwbtcv1+/umjOakJjOKxdljyr7fEmXNm0uvnOWbTyktjHa4v/\n" +
-    "LCJ12+y/NgcTKfMyZDkoGHNK6QjPanIx+rRz/ReikIcm7p0JmocFZchuH4f0K+4b\n" +
-    "hFTaA/NZLQjSLXzZ5hmlLFHYSqzqQnSKeLTMq2k/McgVz0ugSiXAByoFRQARAQAB\n" +
-    "tFZCcm9hZGNhc3QgQ0kgKGh0dHBzOi8vamVua2lucy5yZWRidXR0b24udG9vbHMu\n" +
-    "YmJjLmNvLnVrKSA8dHZtcHJlZGJ1dHRvbnRlYW1AYmJjLmNvLnVrPokCPQQTAQoA\n" +
-    "JwUCVyy92AIbAwUJAeEzgAULCQgHAwUVCgkICwUWAgMBAAIeAQIXgAAKCRAWMEgr\n" +
-    "OuZYkukfEACDq6oLdr74YyWFER2oNO5SOqCFJ0iBq217i+uucO3dOMKs/0lGgS9D\n" +
-    "um8ivAOdUERojyl10MXukWeuB8VFJP0e3sywuAiOWo3lBi77UI3d3qwVWn3NQ0cB\n" +
-    "Yh2IuY8XRU3iTKxn9pshlD81tWOTBlOP7a/l/ie4y4OQ/JufHneOLI5UboXwdByc\n" +
-    "3HWiyZFl2HE4lj31154UMs/bE/szwCQ1DZ1krZy3hqWCGqXB8acS17DHDBgjGQeT\n" +
-    "+4gOVvQTeJexlTnN+tV5gmkHttEO2gGDfBGo05xJdA497NTgkg8xP4ndcUHSFECT\n" +
-    "ZvbfKZLiUkcidHs+PPht5OqSrjgHdiIcTJP4m3sp1LcVeKWW+n5dFF5C9XSd5FxS\n" +
-    "ScZwEzAhi0dALSE56rKFqbTDRyMsMJI/A1mf6jMogxLQXpp7VRULrdhYWcg3EYOn\n" +
-    "rMwjB+lYgiAnUGfYLTgA366I2Z5cd179UX3x1QkfGv2QJW0pVZZffnPbqS6M26jF\n" +
-    "pSlkTlmUgovioGFCF/V9RfhQhmJq8Wu10+OgQu6BS2938mNHE5t9deXjf7lD3lzx\n" +
-    "eSFo6keiLtre0v0VmSdtxJyhmUAXbJhmNsfWaAlmEryE/8oB098BsT5elEW8+8Pb\n" +
-    "xuuz42kM7NIuZzTo7qB9U3pIt42x+QCtotk4Elz4j66+n75JF7HSBA==\n" +
-    "=laVw\n" +
+    "mQINBFQCN9QBEADv5QYOlCWNkI/oKST/GGpQkOZjFY2cbYdHuc2j8kyM4oeNluXqpuEYMHOoQvbJ\n" +
+    "3DFPvsv+jCruL7qjkel9YzaF6e3RN2ystP4YBjxyOT7Bb5EnjNNU6oScQJ50/+RmA4N3wzBrw5+x\n" +
+    "5KQGBfRU/k7JdDKO6SGY0zzdAo3jqp1nQ9Sf+FmghsjDLVZTHorLPV3yPLb37QlvBB2YIRF+dL9l\n" +
+    "4wPAI/fGyWv+Qs7VlCZTyRAnKGbvqN1LvlYoV9YqxaJYYJW+MQhn4706yNJAFeOZuKejEcnZTd/N\n" +
+    "BiAR91sVnsXKgW9eyb4TZ7SqkmrJpuKJBpdPr1dgaK8dDmFh9Nlhpz6xZuYcKaDEDa5b3wymnixt\n" +
+    "wZf2WyboChIlsHDajtXZt34xP9uUge1VHyk1o8AQUzKEpuepxxLnyXArLgvHaLhQnxPAbQB43b4R\n" +
+    "bWYHPdB16ki2WoZX/DA4YEtfxg8GC3zXC2thMJnFburmts71iiYsxKBc6d7O8415xrErhk2/o2+b\n" +
+    "Rhf+7qBQfW0oxQSEMBYbqP3hvhG1VWc9umjbCfMgHrHoIzI7W+GbRdbSsdpY6JNKuCftVfIKXeXk\n" +
+    "5FbUUP9NzsG/nyGFORkq9y0AKmocx3TDw9DRG2SmKIKBOG5PQuzuXqsdUaYcFpySXdPNQG2CPtgu\n" +
+    "PhQivw4qM3pQpQARAQABtCNOb2RlU291cmNlIDxncGctcnBtQG5vZGVzb3VyY2UuY29tPokCOAQT\n" +
+    "AQIAIgUCVAI31AIbAwYLCQgHAwIGFQgCCQoLBBYCAwECHgECF4AACgkQXdvo1DT6dN2uaA//UwKs\n" +
+    "mnz4MCH7Jn/vG0OinGQTfSH5uvlH68yOZmKLnhtfiqUq1gZz734S75ExxGP4SGFYeK9CqKFgoGbp\n" +
+    "jzLLc5kvA7GdDX3E/exEjYa+GrJ9uIOUtaCKstTD5fPVj2WfTZtK9v1F6iYKyPHdJnSc5p7AxbLZ\n" +
+    "karF1CPJQWv2iDrg3dO3Oy41aazRwxJe9hvIa//XavnsW2TTeo8qfQ0qrs8vzt8bxJF+PkACmqQf\n" +
+    "bXAiflCct5XEUbhbX1b8KznPppd5PLrvRTjHnZi/QRjky0qsUOukGiQhT6iZeiOUcLPeD+f7tA7J\n" +
+    "BZ08XXRfnLLjmqYbIHPFG4C/AM5RXu5OdCtFrZQsJgGQEeg/UxYEz5qqNljKjRZ8XsmcyeWouKFM\n" +
+    "LuVr1ORF6crl8lAdT3RujP2MzY8cvxJQesYKdWqk3bPXI7oG/PRReoeN86TqraYOUeTssVlw5lmJ\n" +
+    "tAH+eHt3K6TSjd0rq1RY7xWfttD7L8ECfPmBzbL54MSmKx9MBz+oa9vOWQ2LjIbR/6DEyQiDpGhQ\n" +
+    "TM+r0/SVS/kqR/j0SEHvOql+sn9sK1/qR1h3JtgI6YF4IDXBE9s0RBCLbdxtVf3eAcbOnhkhefMt\n" +
+    "pURJLdVuU8HhMCiVUlHDUPHIuT5zLp+avdanIgi8Cnps/DpMI2KigEHW5mmqihXtfKj0jeE=\n" +
+    "=9Bql\n" +
     "-----END PGP PUBLIC KEY BLOCK-----",
   "https://rpm.nodesource.com/pub_16.x/el/7/x86_64": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n" +
     "Version: GnuPG v1\n" +
