@@ -504,20 +504,20 @@ module.exports = {
       "xL7x0Hw6swbIBmH2pDj+z55KI6L3ZuDcYgoU8Dg=\n" +
       "=uyZR\n" +
       "-----END PGP PUBLIC KEY BLOCK-----",
-  "https://repository.api.bbci.co.uk/ibl-sysadmin/revisions/head": null,        // Same key as iplayer-build-tools ?
-  "https://repository.api.bbci.co.uk/ibl-collectibl-el7/revisions/head": null,  // Same key as iplayer-build-tools ?
-  "https://repository.api.bbci.co.uk/ibl-apache-el7/revisions/head": null,      // not signed by Jenkins
-  "https://repository.api.bbci.co.uk/ibl-logrotate-el7/revisions/head": null,   // not signed by Jenkins
-  "https://repository.api.bbci.co.uk/ibl-audit-el7/revisions/head": null,       // not signed by Jenkins
-  "https://repository.api.bbci.co.uk/ibl-canvas-el7/revisions/head": null,      // not signed by Jenkins
-  "https://repository.api.bbci.co.uk/cloud-varnish/revisions/head": null,       // not signed by Jenkins
+  "https://repository.api.bbci.co.uk/ibl-sysadmin/revisions/head": null,        // Same key as iplayer-build-tools ? Yes - signature Key ID 6470ab08972b5c10
+  "https://repository.api.bbci.co.uk/ibl-collectibl-el7/revisions/head": null,  // Same key as iplayer-build-tools ? Yes - signature Key ID 6470ab08972b5c10
+  "https://repository.api.bbci.co.uk/ibl-apache-el7/revisions/head": null,      // not signed by Jenkins - added autosign - signature Key ID 6470ab08972b5c10
+  "https://repository.api.bbci.co.uk/ibl-logrotate-el7/revisions/head": null,   // not signed by Jenkins - added autosign - signature Key ID 6470ab08972b5c10
+  "https://repository.api.bbci.co.uk/ibl-audit-el7/revisions/head": null,       // not signed by Jenkins - added autosing to ibl-audit but jenkins build failed - no signature
+  "https://repository.api.bbci.co.uk/ibl-canvas-el7/revisions/head": null,      // not signed by Jenkins - added autosign but jenkins build failed - no signature
+  "https://repository.api.bbci.co.uk/cloud-varnish/revisions/head": null,       // not signed by Jenkins - no signature
   "https://repository.api.bbci.co.uk/ibl-certificate-checker-el7/revisions/head": null, // Not in Jenkins? Job not migrated?
-  "https://repository.api.bbci.co.uk/connected-tv/revisions/head": null,
+  "https://repository.api.bbci.co.uk/connected-tv/revisions/head": null, // Contains 4 different packages - https://repository.api.bbci.co.uk/connected-tv/packages
 
-  "https://repository.api.bbci.co.uk/siege/revisions/head": null, // ibl owned
-  "https://repository.api.bbci.co.uk/wrk2/revisions/head": null, // https://github.com/bbc/wrk2-rpm
-  "https://repository.api.bbci.co.uk/ffmpeg-static-el7-rpm/revisions/head": null,  // ibl owned
-  
+  "https://repository.api.bbci.co.uk/siege/revisions/head": null, // ibl owned - no signature
+  "https://repository.api.bbci.co.uk/wrk2/revisions/head": null, // https://github.com/bbc/wrk2-rpm - no signature
+  "https://repository.api.bbci.co.uk/ffmpeg-static-el7-rpm/revisions/head": null,  // ibl owned - no signature
+
   "https://repository.api.bbci.co.uk/broadcast-aws-xray-daemon/revisions/head": null, // not ibl owned
   "https://repository.api.bbci.co.uk/api-management-el7/revisions/head": null, // not signed
   "https://repository.api.bbci.co.uk/cosmos-lib/revisions/head": null,// not ibl owned
