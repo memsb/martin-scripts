@@ -629,7 +629,6 @@ module.exports = {
       "=LP6n\n" +
       "-----END PGP PUBLIC KEY BLOCK-----\n",
   "https://repository.api.bbci.co.uk/cloud-varnish/revisions/head": null,       // not signed by Jenkins - no signature - added autosign - jenkins build failed - https://cosmos.tools.bbc.co.uk/services/cloud-varnish-test?
-  "https://repository.api.bbci.co.uk/connected-tv/revisions/head": null, // Contains 4 different packages - https://repository.api.bbci.co.uk/connected-tv/packages
 
   "https://repository.api.bbci.co.uk/siege/revisions/head": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n" +
       "Version: GnuPG v2.0.22 (GNU/Linux)\n" +
