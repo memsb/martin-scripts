@@ -390,7 +390,7 @@ module.exports = {
       "GWNg/VvIX9MsPA==\n" +
       "=ZSdS\n" +
       "-----END PGP PUBLIC KEY BLOCK-----\n",
-      "https://packages.elastic.co/beats/yum/el/x86_64": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n" +
+      "https://packages.elastic.co/beats/yum/el/x86_64": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n" + // beats no longer used - remove key?
       "Version: GnuPG v2.0.14 (GNU/Linux)\n" +
       "\n" +
       "mQENBFI3HsoBCADXDtbNJnxbPqB1vDNtCsqhe49vFYsZN9IOZsZXgp7aHjh6CJBD\n" +
@@ -498,17 +498,167 @@ module.exports = {
       "xL7x0Hw6swbIBmH2pDj+z55KI6L3ZuDcYgoU8Dg=\n" +
       "=uyZR\n" +
       "-----END PGP PUBLIC KEY BLOCK-----",
-  "https://repository.api.bbci.co.uk/ibl-sysadmin/revisions/head": null,        // Same key as iplayer-build-tools ? Yes - signature Key ID 6470ab08972b5c10
-  "https://repository.api.bbci.co.uk/ibl-collectibl-el7/revisions/head": null,  // Same key as iplayer-build-tools ? Yes - signature Key ID 6470ab08972b5c10
-  "https://repository.api.bbci.co.uk/ibl-apache-el7/revisions/head": null,      // not signed by Jenkins - added autosign - signature Key ID 6470ab08972b5c10
-  "https://repository.api.bbci.co.uk/ibl-logrotate-el7/revisions/head": null,   // not signed by Jenkins - added autosign - signature Key ID 6470ab08972b5c10
-  "https://repository.api.bbci.co.uk/ibl-audit-el7/revisions/head": null,       // not signed by Jenkins - added autosing to ibl-audit but jenkins build failed - no signature
-  "https://repository.api.bbci.co.uk/ibl-canvas-el7/revisions/head": null,      // not signed by Jenkins - added autosign but jenkins build failed - no signature
-  "https://repository.api.bbci.co.uk/cloud-varnish/revisions/head": null,       // not signed by Jenkins - no signature
+  "https://repository.api.bbci.co.uk/ibl-sysadmin/revisions/head": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n" +
+      "Version: GnuPG v2.0.22 (GNU/Linux)\n" +
+      "\n" +
+      "mQINBFre55IBEAC+bWjZT7Icx/l8LrZH497ytD2GEMa6zs8gaEN8UfY8MpiG6UABT90eLh7BZ2M7\n" +
+      "itoG7sv5MS6Ip0FdMDnaGdKI7iq/hkNPzfFG+G5BHPY0FCucD8BAch1k5ur+ZawuK4fqRPW4Gdox\n" +
+      "8F1l1gSDEkd9LS+nnX7Lr5TEnOjsOtLVsuqbqpKQB762orI3a8hanBs8LClFjf9glg4/oNZ/3/5m\n" +
+      "le3tXsN5MiaXX/QLYRvihYWjTXFEkvc84Pb+zHq4akrCdSedvNVSzTnR++t+ieGHe2waMn32rs69\n" +
+      "Yjva/TtFcO0f8TCGvBHphVMAkKHN8lCpF8jfZBi71LimXF3Oy8LtYjGJ1voQRe7k0zsvnEcWaV1h\n" +
+      "sQnOdBsI+k/OYKaJGp4lb2H2ffH4HwX16rz5BKBt5NDdH+ndFWin1xJ79VxjtD367ptpSkrV86nD\n" +
+      "sRTfVtr+EihcesTrhP8RnVuLM1ZwOoqf+qBfLsYsUdCxWxv13My3s4fPEv1fcXHpJuxe8MViODQl\n" +
+      "KagCIO64PY0i1bk74IH8KFL1m+5Udl+z3duysQcxHnNJPETLK3dHTH7WRAGhN67/N//ZMHaesyrt\n" +
+      "eH5tsZTT/NqDpkHFy19J1My4F6My+Xgnnn2ScQhmf8n4ULre7Q43UfleVvEkXBr/91KGFT3GT7Qr\n" +
+      "6R7+Xn5OIEbCmQARAQABtERqZW5raW5zLmlibC5hcGkuYmJjaS5jby51ayA8aWJsLXRlYW0taW50\n" +
+      "ZXJuYWxAbGlzdHMuZm9yZ2UuYmJjLmNvLnVrPokCNgQTAQIAIAUCWt7nkgIbLwQLCQgHBRUICQoL\n" +
+      "BRYCAwEAAh4BAheAAAoJEGRwqwiXK1wQ7vIP/1K8LTR6KTtRK0xEbdPNmN0VBXzFcutCfKp5HnM1\n" +
+      "Na3wQ1YOb3UXwJEFtJwhWJqlLf4LhKstAvxSFlVs2HwwSGxHRre6fbyTlK4qDBwvPo+OxWZoVfsE\n" +
+      "l6nCuN7r7Eo1Awx5UwceMenlWeHwvtJScPkkinuhETzGaRnRb+trNMbaaSef18DGC0Hx5Dckmj5C\n" +
+      "6AoOH4mQhhTKVV1mDG/7G/YLiiJae9Wa5Fcbu7tALUuIGWnK/NAY5pqzS8pr+z4xjx0sadq0w3eg\n" +
+      "DG9HiUPoGUOsL1f6beXhtO7fUbkz5QslIBwhaeGlmbmsO5Yuy5hzUOenQ+fHMNJ4AdTMb6oNuSns\n" +
+      "KZfRSosvtVT42XB9T+2mzEBz3v0+h1PMtpX/myGN71fTzuaQ1y4jkgJEPHeYaPjsj+FOiGUiu1TC\n" +
+      "M9qd1qYz0HdwTeGIBtUvOJd1oC50ylRU4xh2Yw66P0+nRbY993jfUcPtu+Avf4QVDHTf3voIqU+3\n" +
+      "XCivoUIF18S2TVWBHq8RcC36CmszEK6kp5NChBnVCG7exC/vVYNIaZUI/guJqIOjlFD12XhRgXjw\n" +
+      "DauLlzcqHekHWVCdh5XyzWKO+qd7KrXtLhbqROllVm0tTVcEOOeONFyOyEqMKGIiBn83mUmE0Lba\n" +
+      "ZzroamsgKIU/KzjOfElIsdpf8qo1zpgwh3M0\n" +
+      "=LP6n\n" +
+      "-----END PGP PUBLIC KEY BLOCK-----\n",        // Same key as iplayer-build-tools ? Yes - signature Key ID 6470ab08972b5c10
+  "https://repository.api.bbci.co.uk/ibl-collectibl-el7/revisions/head": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n" +
+      "Version: GnuPG v2.0.22 (GNU/Linux)\n" +
+      "\n" +
+      "mQINBFre55IBEAC+bWjZT7Icx/l8LrZH497ytD2GEMa6zs8gaEN8UfY8MpiG6UABT90eLh7BZ2M7\n" +
+      "itoG7sv5MS6Ip0FdMDnaGdKI7iq/hkNPzfFG+G5BHPY0FCucD8BAch1k5ur+ZawuK4fqRPW4Gdox\n" +
+      "8F1l1gSDEkd9LS+nnX7Lr5TEnOjsOtLVsuqbqpKQB762orI3a8hanBs8LClFjf9glg4/oNZ/3/5m\n" +
+      "le3tXsN5MiaXX/QLYRvihYWjTXFEkvc84Pb+zHq4akrCdSedvNVSzTnR++t+ieGHe2waMn32rs69\n" +
+      "Yjva/TtFcO0f8TCGvBHphVMAkKHN8lCpF8jfZBi71LimXF3Oy8LtYjGJ1voQRe7k0zsvnEcWaV1h\n" +
+      "sQnOdBsI+k/OYKaJGp4lb2H2ffH4HwX16rz5BKBt5NDdH+ndFWin1xJ79VxjtD367ptpSkrV86nD\n" +
+      "sRTfVtr+EihcesTrhP8RnVuLM1ZwOoqf+qBfLsYsUdCxWxv13My3s4fPEv1fcXHpJuxe8MViODQl\n" +
+      "KagCIO64PY0i1bk74IH8KFL1m+5Udl+z3duysQcxHnNJPETLK3dHTH7WRAGhN67/N//ZMHaesyrt\n" +
+      "eH5tsZTT/NqDpkHFy19J1My4F6My+Xgnnn2ScQhmf8n4ULre7Q43UfleVvEkXBr/91KGFT3GT7Qr\n" +
+      "6R7+Xn5OIEbCmQARAQABtERqZW5raW5zLmlibC5hcGkuYmJjaS5jby51ayA8aWJsLXRlYW0taW50\n" +
+      "ZXJuYWxAbGlzdHMuZm9yZ2UuYmJjLmNvLnVrPokCNgQTAQIAIAUCWt7nkgIbLwQLCQgHBRUICQoL\n" +
+      "BRYCAwEAAh4BAheAAAoJEGRwqwiXK1wQ7vIP/1K8LTR6KTtRK0xEbdPNmN0VBXzFcutCfKp5HnM1\n" +
+      "Na3wQ1YOb3UXwJEFtJwhWJqlLf4LhKstAvxSFlVs2HwwSGxHRre6fbyTlK4qDBwvPo+OxWZoVfsE\n" +
+      "l6nCuN7r7Eo1Awx5UwceMenlWeHwvtJScPkkinuhETzGaRnRb+trNMbaaSef18DGC0Hx5Dckmj5C\n" +
+      "6AoOH4mQhhTKVV1mDG/7G/YLiiJae9Wa5Fcbu7tALUuIGWnK/NAY5pqzS8pr+z4xjx0sadq0w3eg\n" +
+      "DG9HiUPoGUOsL1f6beXhtO7fUbkz5QslIBwhaeGlmbmsO5Yuy5hzUOenQ+fHMNJ4AdTMb6oNuSns\n" +
+      "KZfRSosvtVT42XB9T+2mzEBz3v0+h1PMtpX/myGN71fTzuaQ1y4jkgJEPHeYaPjsj+FOiGUiu1TC\n" +
+      "M9qd1qYz0HdwTeGIBtUvOJd1oC50ylRU4xh2Yw66P0+nRbY993jfUcPtu+Avf4QVDHTf3voIqU+3\n" +
+      "XCivoUIF18S2TVWBHq8RcC36CmszEK6kp5NChBnVCG7exC/vVYNIaZUI/guJqIOjlFD12XhRgXjw\n" +
+      "DauLlzcqHekHWVCdh5XyzWKO+qd7KrXtLhbqROllVm0tTVcEOOeONFyOyEqMKGIiBn83mUmE0Lba\n" +
+      "ZzroamsgKIU/KzjOfElIsdpf8qo1zpgwh3M0\n" +
+      "=LP6n\n" +
+      "-----END PGP PUBLIC KEY BLOCK-----\n",  // Same key as iplayer-build-tools ? Yes - signature Key ID 6470ab08972b5c10
+  "https://repository.api.bbci.co.uk/ibl-apache-el7/revisions/head": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n" +
+      "Version: GnuPG v2.0.22 (GNU/Linux)\n" +
+      "\n" +
+      "mQINBFre55IBEAC+bWjZT7Icx/l8LrZH497ytD2GEMa6zs8gaEN8UfY8MpiG6UABT90eLh7BZ2M7\n" +
+      "itoG7sv5MS6Ip0FdMDnaGdKI7iq/hkNPzfFG+G5BHPY0FCucD8BAch1k5ur+ZawuK4fqRPW4Gdox\n" +
+      "8F1l1gSDEkd9LS+nnX7Lr5TEnOjsOtLVsuqbqpKQB762orI3a8hanBs8LClFjf9glg4/oNZ/3/5m\n" +
+      "le3tXsN5MiaXX/QLYRvihYWjTXFEkvc84Pb+zHq4akrCdSedvNVSzTnR++t+ieGHe2waMn32rs69\n" +
+      "Yjva/TtFcO0f8TCGvBHphVMAkKHN8lCpF8jfZBi71LimXF3Oy8LtYjGJ1voQRe7k0zsvnEcWaV1h\n" +
+      "sQnOdBsI+k/OYKaJGp4lb2H2ffH4HwX16rz5BKBt5NDdH+ndFWin1xJ79VxjtD367ptpSkrV86nD\n" +
+      "sRTfVtr+EihcesTrhP8RnVuLM1ZwOoqf+qBfLsYsUdCxWxv13My3s4fPEv1fcXHpJuxe8MViODQl\n" +
+      "KagCIO64PY0i1bk74IH8KFL1m+5Udl+z3duysQcxHnNJPETLK3dHTH7WRAGhN67/N//ZMHaesyrt\n" +
+      "eH5tsZTT/NqDpkHFy19J1My4F6My+Xgnnn2ScQhmf8n4ULre7Q43UfleVvEkXBr/91KGFT3GT7Qr\n" +
+      "6R7+Xn5OIEbCmQARAQABtERqZW5raW5zLmlibC5hcGkuYmJjaS5jby51ayA8aWJsLXRlYW0taW50\n" +
+      "ZXJuYWxAbGlzdHMuZm9yZ2UuYmJjLmNvLnVrPokCNgQTAQIAIAUCWt7nkgIbLwQLCQgHBRUICQoL\n" +
+      "BRYCAwEAAh4BAheAAAoJEGRwqwiXK1wQ7vIP/1K8LTR6KTtRK0xEbdPNmN0VBXzFcutCfKp5HnM1\n" +
+      "Na3wQ1YOb3UXwJEFtJwhWJqlLf4LhKstAvxSFlVs2HwwSGxHRre6fbyTlK4qDBwvPo+OxWZoVfsE\n" +
+      "l6nCuN7r7Eo1Awx5UwceMenlWeHwvtJScPkkinuhETzGaRnRb+trNMbaaSef18DGC0Hx5Dckmj5C\n" +
+      "6AoOH4mQhhTKVV1mDG/7G/YLiiJae9Wa5Fcbu7tALUuIGWnK/NAY5pqzS8pr+z4xjx0sadq0w3eg\n" +
+      "DG9HiUPoGUOsL1f6beXhtO7fUbkz5QslIBwhaeGlmbmsO5Yuy5hzUOenQ+fHMNJ4AdTMb6oNuSns\n" +
+      "KZfRSosvtVT42XB9T+2mzEBz3v0+h1PMtpX/myGN71fTzuaQ1y4jkgJEPHeYaPjsj+FOiGUiu1TC\n" +
+      "M9qd1qYz0HdwTeGIBtUvOJd1oC50ylRU4xh2Yw66P0+nRbY993jfUcPtu+Avf4QVDHTf3voIqU+3\n" +
+      "XCivoUIF18S2TVWBHq8RcC36CmszEK6kp5NChBnVCG7exC/vVYNIaZUI/guJqIOjlFD12XhRgXjw\n" +
+      "DauLlzcqHekHWVCdh5XyzWKO+qd7KrXtLhbqROllVm0tTVcEOOeONFyOyEqMKGIiBn83mUmE0Lba\n" +
+      "ZzroamsgKIU/KzjOfElIsdpf8qo1zpgwh3M0\n" +
+      "=LP6n\n" +
+      "-----END PGP PUBLIC KEY BLOCK-----\n",      // not signed by Jenkins - added autosign - signature Key ID 6470ab08972b5c10
+  "https://repository.api.bbci.co.uk/ibl-logrotate-el7/revisions/head": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n" +
+      "Version: GnuPG v2.0.22 (GNU/Linux)\n" +
+      "\n" +
+      "mQINBFre55IBEAC+bWjZT7Icx/l8LrZH497ytD2GEMa6zs8gaEN8UfY8MpiG6UABT90eLh7BZ2M7\n" +
+      "itoG7sv5MS6Ip0FdMDnaGdKI7iq/hkNPzfFG+G5BHPY0FCucD8BAch1k5ur+ZawuK4fqRPW4Gdox\n" +
+      "8F1l1gSDEkd9LS+nnX7Lr5TEnOjsOtLVsuqbqpKQB762orI3a8hanBs8LClFjf9glg4/oNZ/3/5m\n" +
+      "le3tXsN5MiaXX/QLYRvihYWjTXFEkvc84Pb+zHq4akrCdSedvNVSzTnR++t+ieGHe2waMn32rs69\n" +
+      "Yjva/TtFcO0f8TCGvBHphVMAkKHN8lCpF8jfZBi71LimXF3Oy8LtYjGJ1voQRe7k0zsvnEcWaV1h\n" +
+      "sQnOdBsI+k/OYKaJGp4lb2H2ffH4HwX16rz5BKBt5NDdH+ndFWin1xJ79VxjtD367ptpSkrV86nD\n" +
+      "sRTfVtr+EihcesTrhP8RnVuLM1ZwOoqf+qBfLsYsUdCxWxv13My3s4fPEv1fcXHpJuxe8MViODQl\n" +
+      "KagCIO64PY0i1bk74IH8KFL1m+5Udl+z3duysQcxHnNJPETLK3dHTH7WRAGhN67/N//ZMHaesyrt\n" +
+      "eH5tsZTT/NqDpkHFy19J1My4F6My+Xgnnn2ScQhmf8n4ULre7Q43UfleVvEkXBr/91KGFT3GT7Qr\n" +
+      "6R7+Xn5OIEbCmQARAQABtERqZW5raW5zLmlibC5hcGkuYmJjaS5jby51ayA8aWJsLXRlYW0taW50\n" +
+      "ZXJuYWxAbGlzdHMuZm9yZ2UuYmJjLmNvLnVrPokCNgQTAQIAIAUCWt7nkgIbLwQLCQgHBRUICQoL\n" +
+      "BRYCAwEAAh4BAheAAAoJEGRwqwiXK1wQ7vIP/1K8LTR6KTtRK0xEbdPNmN0VBXzFcutCfKp5HnM1\n" +
+      "Na3wQ1YOb3UXwJEFtJwhWJqlLf4LhKstAvxSFlVs2HwwSGxHRre6fbyTlK4qDBwvPo+OxWZoVfsE\n" +
+      "l6nCuN7r7Eo1Awx5UwceMenlWeHwvtJScPkkinuhETzGaRnRb+trNMbaaSef18DGC0Hx5Dckmj5C\n" +
+      "6AoOH4mQhhTKVV1mDG/7G/YLiiJae9Wa5Fcbu7tALUuIGWnK/NAY5pqzS8pr+z4xjx0sadq0w3eg\n" +
+      "DG9HiUPoGUOsL1f6beXhtO7fUbkz5QslIBwhaeGlmbmsO5Yuy5hzUOenQ+fHMNJ4AdTMb6oNuSns\n" +
+      "KZfRSosvtVT42XB9T+2mzEBz3v0+h1PMtpX/myGN71fTzuaQ1y4jkgJEPHeYaPjsj+FOiGUiu1TC\n" +
+      "M9qd1qYz0HdwTeGIBtUvOJd1oC50ylRU4xh2Yw66P0+nRbY993jfUcPtu+Avf4QVDHTf3voIqU+3\n" +
+      "XCivoUIF18S2TVWBHq8RcC36CmszEK6kp5NChBnVCG7exC/vVYNIaZUI/guJqIOjlFD12XhRgXjw\n" +
+      "DauLlzcqHekHWVCdh5XyzWKO+qd7KrXtLhbqROllVm0tTVcEOOeONFyOyEqMKGIiBn83mUmE0Lba\n" +
+      "ZzroamsgKIU/KzjOfElIsdpf8qo1zpgwh3M0\n" +
+      "=LP6n\n" +
+      "-----END PGP PUBLIC KEY BLOCK-----\n",   // not signed by Jenkins - added autosign - signature Key ID 6470ab08972b5c10
+  "https://repository.api.bbci.co.uk/ibl-audit-el7/revisions/head": null,       // not signed by Jenkins - added autosing to ibl-audit but jenkins build failed - no signature - have removed ibl-audit rpm from iplayer-tools - ibl-audit has been deprecated. Remove from key_mappings?
+  "https://repository.api.bbci.co.uk/ibl-canvas-el7/revisions/head": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n" +
+      "Version: GnuPG v2.0.22 (GNU/Linux)\n" +
+      "\n" +
+      "mQINBFre55IBEAC+bWjZT7Icx/l8LrZH497ytD2GEMa6zs8gaEN8UfY8MpiG6UABT90eLh7BZ2M7\n" +
+      "itoG7sv5MS6Ip0FdMDnaGdKI7iq/hkNPzfFG+G5BHPY0FCucD8BAch1k5ur+ZawuK4fqRPW4Gdox\n" +
+      "8F1l1gSDEkd9LS+nnX7Lr5TEnOjsOtLVsuqbqpKQB762orI3a8hanBs8LClFjf9glg4/oNZ/3/5m\n" +
+      "le3tXsN5MiaXX/QLYRvihYWjTXFEkvc84Pb+zHq4akrCdSedvNVSzTnR++t+ieGHe2waMn32rs69\n" +
+      "Yjva/TtFcO0f8TCGvBHphVMAkKHN8lCpF8jfZBi71LimXF3Oy8LtYjGJ1voQRe7k0zsvnEcWaV1h\n" +
+      "sQnOdBsI+k/OYKaJGp4lb2H2ffH4HwX16rz5BKBt5NDdH+ndFWin1xJ79VxjtD367ptpSkrV86nD\n" +
+      "sRTfVtr+EihcesTrhP8RnVuLM1ZwOoqf+qBfLsYsUdCxWxv13My3s4fPEv1fcXHpJuxe8MViODQl\n" +
+      "KagCIO64PY0i1bk74IH8KFL1m+5Udl+z3duysQcxHnNJPETLK3dHTH7WRAGhN67/N//ZMHaesyrt\n" +
+      "eH5tsZTT/NqDpkHFy19J1My4F6My+Xgnnn2ScQhmf8n4ULre7Q43UfleVvEkXBr/91KGFT3GT7Qr\n" +
+      "6R7+Xn5OIEbCmQARAQABtERqZW5raW5zLmlibC5hcGkuYmJjaS5jby51ayA8aWJsLXRlYW0taW50\n" +
+      "ZXJuYWxAbGlzdHMuZm9yZ2UuYmJjLmNvLnVrPokCNgQTAQIAIAUCWt7nkgIbLwQLCQgHBRUICQoL\n" +
+      "BRYCAwEAAh4BAheAAAoJEGRwqwiXK1wQ7vIP/1K8LTR6KTtRK0xEbdPNmN0VBXzFcutCfKp5HnM1\n" +
+      "Na3wQ1YOb3UXwJEFtJwhWJqlLf4LhKstAvxSFlVs2HwwSGxHRre6fbyTlK4qDBwvPo+OxWZoVfsE\n" +
+      "l6nCuN7r7Eo1Awx5UwceMenlWeHwvtJScPkkinuhETzGaRnRb+trNMbaaSef18DGC0Hx5Dckmj5C\n" +
+      "6AoOH4mQhhTKVV1mDG/7G/YLiiJae9Wa5Fcbu7tALUuIGWnK/NAY5pqzS8pr+z4xjx0sadq0w3eg\n" +
+      "DG9HiUPoGUOsL1f6beXhtO7fUbkz5QslIBwhaeGlmbmsO5Yuy5hzUOenQ+fHMNJ4AdTMb6oNuSns\n" +
+      "KZfRSosvtVT42XB9T+2mzEBz3v0+h1PMtpX/myGN71fTzuaQ1y4jkgJEPHeYaPjsj+FOiGUiu1TC\n" +
+      "M9qd1qYz0HdwTeGIBtUvOJd1oC50ylRU4xh2Yw66P0+nRbY993jfUcPtu+Avf4QVDHTf3voIqU+3\n" +
+      "XCivoUIF18S2TVWBHq8RcC36CmszEK6kp5NChBnVCG7exC/vVYNIaZUI/guJqIOjlFD12XhRgXjw\n" +
+      "DauLlzcqHekHWVCdh5XyzWKO+qd7KrXtLhbqROllVm0tTVcEOOeONFyOyEqMKGIiBn83mUmE0Lba\n" +
+      "ZzroamsgKIU/KzjOfElIsdpf8qo1zpgwh3M0\n" +
+      "=LP6n\n" +
+      "-----END PGP PUBLIC KEY BLOCK-----\n",      // not signed by Jenkins - fixed jenkins - added autosign
+  "https://repository.api.bbci.co.uk/cloud-varnish/revisions/head": null,       // not signed by Jenkins - no signature - added autosign - jenkins build failed - https://cosmos.tools.bbc.co.uk/services/cloud-varnish-test?
   "https://repository.api.bbci.co.uk/ibl-certificate-checker-el7/revisions/head": null, // Not in Jenkins? Job not migrated?
   "https://repository.api.bbci.co.uk/connected-tv/revisions/head": null, // Contains 4 different packages - https://repository.api.bbci.co.uk/connected-tv/packages
 
-  "https://repository.api.bbci.co.uk/siege/revisions/head": null, // ibl owned - no signature
+  "https://repository.api.bbci.co.uk/siege/revisions/head": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n" +
+      "Version: GnuPG v2.0.22 (GNU/Linux)\n" +
+      "\n" +
+      "mQINBFre55IBEAC+bWjZT7Icx/l8LrZH497ytD2GEMa6zs8gaEN8UfY8MpiG6UABT90eLh7BZ2M7\n" +
+      "itoG7sv5MS6Ip0FdMDnaGdKI7iq/hkNPzfFG+G5BHPY0FCucD8BAch1k5ur+ZawuK4fqRPW4Gdox\n" +
+      "8F1l1gSDEkd9LS+nnX7Lr5TEnOjsOtLVsuqbqpKQB762orI3a8hanBs8LClFjf9glg4/oNZ/3/5m\n" +
+      "le3tXsN5MiaXX/QLYRvihYWjTXFEkvc84Pb+zHq4akrCdSedvNVSzTnR++t+ieGHe2waMn32rs69\n" +
+      "Yjva/TtFcO0f8TCGvBHphVMAkKHN8lCpF8jfZBi71LimXF3Oy8LtYjGJ1voQRe7k0zsvnEcWaV1h\n" +
+      "sQnOdBsI+k/OYKaJGp4lb2H2ffH4HwX16rz5BKBt5NDdH+ndFWin1xJ79VxjtD367ptpSkrV86nD\n" +
+      "sRTfVtr+EihcesTrhP8RnVuLM1ZwOoqf+qBfLsYsUdCxWxv13My3s4fPEv1fcXHpJuxe8MViODQl\n" +
+      "KagCIO64PY0i1bk74IH8KFL1m+5Udl+z3duysQcxHnNJPETLK3dHTH7WRAGhN67/N//ZMHaesyrt\n" +
+      "eH5tsZTT/NqDpkHFy19J1My4F6My+Xgnnn2ScQhmf8n4ULre7Q43UfleVvEkXBr/91KGFT3GT7Qr\n" +
+      "6R7+Xn5OIEbCmQARAQABtERqZW5raW5zLmlibC5hcGkuYmJjaS5jby51ayA8aWJsLXRlYW0taW50\n" +
+      "ZXJuYWxAbGlzdHMuZm9yZ2UuYmJjLmNvLnVrPokCNgQTAQIAIAUCWt7nkgIbLwQLCQgHBRUICQoL\n" +
+      "BRYCAwEAAh4BAheAAAoJEGRwqwiXK1wQ7vIP/1K8LTR6KTtRK0xEbdPNmN0VBXzFcutCfKp5HnM1\n" +
+      "Na3wQ1YOb3UXwJEFtJwhWJqlLf4LhKstAvxSFlVs2HwwSGxHRre6fbyTlK4qDBwvPo+OxWZoVfsE\n" +
+      "l6nCuN7r7Eo1Awx5UwceMenlWeHwvtJScPkkinuhETzGaRnRb+trNMbaaSef18DGC0Hx5Dckmj5C\n" +
+      "6AoOH4mQhhTKVV1mDG/7G/YLiiJae9Wa5Fcbu7tALUuIGWnK/NAY5pqzS8pr+z4xjx0sadq0w3eg\n" +
+      "DG9HiUPoGUOsL1f6beXhtO7fUbkz5QslIBwhaeGlmbmsO5Yuy5hzUOenQ+fHMNJ4AdTMb6oNuSns\n" +
+      "KZfRSosvtVT42XB9T+2mzEBz3v0+h1PMtpX/myGN71fTzuaQ1y4jkgJEPHeYaPjsj+FOiGUiu1TC\n" +
+      "M9qd1qYz0HdwTeGIBtUvOJd1oC50ylRU4xh2Yw66P0+nRbY993jfUcPtu+Avf4QVDHTf3voIqU+3\n" +
+      "XCivoUIF18S2TVWBHq8RcC36CmszEK6kp5NChBnVCG7exC/vVYNIaZUI/guJqIOjlFD12XhRgXjw\n" +
+      "DauLlzcqHekHWVCdh5XyzWKO+qd7KrXtLhbqROllVm0tTVcEOOeONFyOyEqMKGIiBn83mUmE0Lba\n" +
+      "ZzroamsgKIU/KzjOfElIsdpf8qo1zpgwh3M0\n" +
+      "=LP6n\n" +
+      "-----END PGP PUBLIC KEY BLOCK-----\n", // ibl owned - no signature - added autosign
   "https://repository.api.bbci.co.uk/wrk2/revisions/head": null, // https://github.com/bbc/wrk2-rpm - no signature
   "https://repository.api.bbci.co.uk/ffmpeg-static-el7-rpm/revisions/head": null,  // ibl owned - no signature
 
