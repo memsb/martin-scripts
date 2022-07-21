@@ -41,7 +41,7 @@ const add_tokens = async (components, mapping) => {
     for (const component of components) {
         const dir = path.join(checkout_dir, component);
 
-        await checkout(`https://github.com/bbc/${component}`, dir);
+        // await checkout(`https://github.com/bbc/${component}`, dir);
 
         let updated = add_missing_keys(dir, mapping);
         if (updated) {
@@ -56,7 +56,7 @@ const add_tokens = async (components, mapping) => {
 };
 
 const checkout_dir = 'add_gpg_tokens';
-reset_dir(checkout_dir);
+// reset_dir(checkout_dir);
 
 const components = read_json('components-with-gpg-keys.json');
 const mapping = require('./key_mappings');
