@@ -628,8 +628,32 @@ module.exports = {
       "ZzroamsgKIU/KzjOfElIsdpf8qo1zpgwh3M0\n" +
       "=LP6n\n" +
       "-----END PGP PUBLIC KEY BLOCK-----\n",
-  "https://repository.api.bbci.co.uk/cloud-varnish/revisions/head": null,       // not signed by Jenkins - no signature - added autosign - jenkins build failed - https://cosmos.tools.bbc.co.uk/services/cloud-varnish-test?
-
+  "https://repository.api.bbci.co.uk/cloud-varnish/revisions/head": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n" +
+  "Version: GnuPG v2.0.22 (GNU/Linux)\n" +
+  "\n" +
+  "mQINBFre55IBEAC+bWjZT7Icx/l8LrZH497ytD2GEMa6zs8gaEN8UfY8MpiG6UABT90eLh7BZ2M7\n" +
+  "itoG7sv5MS6Ip0FdMDnaGdKI7iq/hkNPzfFG+G5BHPY0FCucD8BAch1k5ur+ZawuK4fqRPW4Gdox\n" +
+  "8F1l1gSDEkd9LS+nnX7Lr5TEnOjsOtLVsuqbqpKQB762orI3a8hanBs8LClFjf9glg4/oNZ/3/5m\n" +
+  "le3tXsN5MiaXX/QLYRvihYWjTXFEkvc84Pb+zHq4akrCdSedvNVSzTnR++t+ieGHe2waMn32rs69\n" +
+  "Yjva/TtFcO0f8TCGvBHphVMAkKHN8lCpF8jfZBi71LimXF3Oy8LtYjGJ1voQRe7k0zsvnEcWaV1h\n" +
+  "sQnOdBsI+k/OYKaJGp4lb2H2ffH4HwX16rz5BKBt5NDdH+ndFWin1xJ79VxjtD367ptpSkrV86nD\n" +
+  "sRTfVtr+EihcesTrhP8RnVuLM1ZwOoqf+qBfLsYsUdCxWxv13My3s4fPEv1fcXHpJuxe8MViODQl\n" +
+  "KagCIO64PY0i1bk74IH8KFL1m+5Udl+z3duysQcxHnNJPETLK3dHTH7WRAGhN67/N//ZMHaesyrt\n" +
+  "eH5tsZTT/NqDpkHFy19J1My4F6My+Xgnnn2ScQhmf8n4ULre7Q43UfleVvEkXBr/91KGFT3GT7Qr\n" +
+  "6R7+Xn5OIEbCmQARAQABtERqZW5raW5zLmlibC5hcGkuYmJjaS5jby51ayA8aWJsLXRlYW0taW50\n" +
+  "ZXJuYWxAbGlzdHMuZm9yZ2UuYmJjLmNvLnVrPokCNgQTAQIAIAUCWt7nkgIbLwQLCQgHBRUICQoL\n" +
+  "BRYCAwEAAh4BAheAAAoJEGRwqwiXK1wQ7vIP/1K8LTR6KTtRK0xEbdPNmN0VBXzFcutCfKp5HnM1\n" +
+  "Na3wQ1YOb3UXwJEFtJwhWJqlLf4LhKstAvxSFlVs2HwwSGxHRre6fbyTlK4qDBwvPo+OxWZoVfsE\n" +
+  "l6nCuN7r7Eo1Awx5UwceMenlWeHwvtJScPkkinuhETzGaRnRb+trNMbaaSef18DGC0Hx5Dckmj5C\n" +
+  "6AoOH4mQhhTKVV1mDG/7G/YLiiJae9Wa5Fcbu7tALUuIGWnK/NAY5pqzS8pr+z4xjx0sadq0w3eg\n" +
+  "DG9HiUPoGUOsL1f6beXhtO7fUbkz5QslIBwhaeGlmbmsO5Yuy5hzUOenQ+fHMNJ4AdTMb6oNuSns\n" +
+  "KZfRSosvtVT42XB9T+2mzEBz3v0+h1PMtpX/myGN71fTzuaQ1y4jkgJEPHeYaPjsj+FOiGUiu1TC\n" +
+  "M9qd1qYz0HdwTeGIBtUvOJd1oC50ylRU4xh2Yw66P0+nRbY993jfUcPtu+Avf4QVDHTf3voIqU+3\n" +
+  "XCivoUIF18S2TVWBHq8RcC36CmszEK6kp5NChBnVCG7exC/vVYNIaZUI/guJqIOjlFD12XhRgXjw\n" +
+  "DauLlzcqHekHWVCdh5XyzWKO+qd7KrXtLhbqROllVm0tTVcEOOeONFyOyEqMKGIiBn83mUmE0Lba\n" +
+  "ZzroamsgKIU/KzjOfElIsdpf8qo1zpgwh3M0\n" +
+  "=LP6n\n" +
+  "-----END PGP PUBLIC KEY BLOCK-----\n",
   "https://repository.api.bbci.co.uk/siege/revisions/head": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n" +
       "Version: GnuPG v2.0.22 (GNU/Linux)\n" +
       "\n" +
